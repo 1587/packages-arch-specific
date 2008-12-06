@@ -1,0 +1,45 @@
+#!/bin/bash -e
+
+BASE_PATH="/org/buildd.debian.org/etc/packages-arch-specific"
+
+export GIT_DIR="${BASE_PATH}/.git"
+CHECKOUT_PATH="${BASE_PATH}/checkout"
+
+if [ ! -d "${CHECKOUT_PATH}" ]
+then
+	mkdir "${CHECKOUT_PATH}"
+fi
+
+process_branch() {
+	branch="$1"
+
+	echo "I: checking out copy for ${branch}"
+
+	target_dir="${CHECKOUT_PATH}/${branch}"
+	target_file="${target_dir}/Packages-arch-specific"
+
+	if [ ! -d "${target_dir}" ]
+	then
+		echo "W: creating checkout directory for ${branch}"
+		if ! mkdir "${target_dir}"
+		then
+			echo "E: mkdir failed for ${target_dir}, aborting!"
+			exit 1
+		fi
+	fi
+
+	if [ -f "${target_file}" -a ! -w "${target_file}" ]
+	then
+		echo "E: ${target_file} not writable, aborting!"
+		exit 1
+	fi
+
+	git cat-file blob "${head}:Packages-arch-specific" > "${target_file}"
+}
+
+git show-ref --heads | \
+	(while read hash branch
+	 do
+		process_branch "${branch##refs/heads/}"
+	 done)
+
