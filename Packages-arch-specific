@@ -30,6 +30,7 @@ acpi: i386 ia64	amd64 lpia					      # acpi is i386/ia64 specific
 #%acpica-unix: !hppa						      # #401153 - no big-endian support
 acpid: i386 ia64 amd64 lpia					      # acpi is i386/ia64 specific
 acpidump: i386 ia64 amd64 lpia					      # acpi is i386/ia64 specific
+%acpitail: amd64 i386 ia64 lpia					      # acpi is i386/ia64 specific
 %adeos: i386 ia64 powerpc arm armel				      # not supported upstream for others
 %afbinit: sparc							      # Sparc gfx card firmware loader
 %alleyoop: i386 amd64 powerpc lpia				      # [ANAIS] - Depends valgrind
@@ -520,6 +521,7 @@ kon2: i386                                                            # Hardcode
 %ia32-libs-openoffice.org: amd64 ia64				      # ia32 compat libs for amd64,ia64
 %lcd4linux: !hppa !ia64 !m68k !mips !mipsel !powerpc !sparc	      # <sys/io.h>
 %ledstats: i386							      # [?] ANAIS, <sys/io.h>
+%libacpi: amd64 i386 ia64 lpia					      # acpi is i386/ia64 specific
 %libc-sparc: sparc                                                    # old libc for sparc
 %libdb: i386                                                          # db1 compatibility library
 %libdbd-informix-perl: i386                                           # ANAIS
@@ -853,6 +855,7 @@ wmacpi: i386 amd64						      # i386 specific
 wmbatppc: powerpc						      # powerpc battery monitor
 %wmtune: !hppa !ia64 !m68k					      # sys/io.h
 %x86info: i386 amd64						      # i386 CPU info prog
+%xbattbar-acpi: amd64 i386 ia64 lpia				      # acpi is i386/ia64 specific
 xbox-raincoat: i386						      # i386 xbox BIOS flasher
 %xdslusb: i386							      # [ANAIS]
 %xfree86v3: alpha i386						      # i386 alpha need old servers
