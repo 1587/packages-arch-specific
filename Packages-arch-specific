@@ -922,7 +922,7 @@ xserver-xorg-video-neomagic: !s390
 xserver-xorg-video-newport: !s390
 xserver-xorg-video-nsc: !s390
 xserver-xorg-video-nv: !s390
-xserver-xorg-video-openchrome: i386 amd64 kfreebsd-i386 kfreebsd-amd64 # chipset specific
+xserver-xorg-video-openchrome: i386 amd64 kfreebsd-i386 kfreebsd-amd64 lpia # chipset specific
 xserver-xorg-video-radeonhd: !s390
 xserver-xorg-video-rendition: !s390
 xserver-xorg-video-s3: !s390
@@ -931,7 +931,7 @@ xserver-xorg-video-savage: !s390
 xserver-xorg-video-siliconmotion: !s390
 xserver-xorg-video-sis: !s390
 xserver-xorg-video-sisusb: !s390
-%xserver-xorg-video-geode: i386					      # i386 specific
+%xserver-xorg-video-geode: i386 lpia				      # i386 specific
 %xserver-xorg-video-intel: amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 lpia # intel platform specific
 %xserver-xorg-video-newport: mips				      # mips specific
 %xserver-xorg-video-sunbw2: sparc				      # sparc specific
