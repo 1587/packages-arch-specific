@@ -1128,9 +1128,7 @@ lazarus: arm armel i386 sparc powerpc amd64            		      # b-d fp-compiler
 %blam: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
 %f-spot: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
 %libgdiplus: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-%monodevelop: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
 %muine: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-%prj2make-sharp: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
 %beagle: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
 %beaglefs: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
 %evolution-sharp: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
