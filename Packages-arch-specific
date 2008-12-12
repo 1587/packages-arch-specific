@@ -643,6 +643,7 @@ mlton: amd64 i386 hppa powerpc sparc				      # Self-hosting ML compiler
 mmx-emu: i386                                                         # i386 specific
 mocka: i386							      # i386 only compiler
 mondo: i386 amd64						      # needs mindi
+%mono: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia # needs per-architecture porting
 morse: i386							      # i386 specific
 mosixview: i386							      # depends on i386-only mosix
 %motioneye: i386						      # Sony VAIO (i386 laptop) specific
@@ -1117,33 +1118,6 @@ util-vserver: !m68k						# build-depend on dietlibc-dev:
 %hedgewars: arm armel i386 sparc powerpc amd64			      # b-d fp-compiler
 imapcopy: arm armel i386 sparc powerpc amd64           		      # b-d fp-compiler
 lazarus: arm armel i386 sparc powerpc amd64            		      # b-d fp-compiler
-
-# mono stuff
-%gtk-sharp: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-%gtk-sharp2: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-%last-exit: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-#%mcs: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-%mod-mono: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-%mono: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia                        # ANAIS, #259523
-%blam: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-%f-spot: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-%libgdiplus: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-%muine: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-%beagle: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-%beaglefs: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-%evolution-sharp: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-%tomboy: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-%gsf-sharp: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-%banshee: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-%cowbell: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-%ikvm: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-%njb-sharp: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-%gnome-sharp2: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-%mono-debugger: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-libqyoto4.3-cil: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-libqyoto-dev: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-qyoto-dev-tools: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia
-
 
 # m68k specific
 %quantlib: !m68k						# ROM
