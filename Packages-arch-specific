@@ -1102,7 +1102,6 @@ util-vserver: !m68k						# build-depend on dietlibc-dev:
 # OO produces libmythes-dev on archs it isn't ported to, and -voikko is part of the same mess
 #%openoffice.org: i386 sparc powerpc s390
 #%openoffice.org-voikko: i386 sparc powerpc amd64 ia64 s390	     # Depends on openoffice.org
-%openoffice.org: !hppa !alpha                                        # 491623
 %openoffice.org-amd64: amd64 ia64
 %openoffice.org1.1: i386 sparc powerpc s390
 %oooqs: i386 sparc powerpc s390					     # Depends on openoffice.org
