@@ -1,3 +1,0 @@
-all:
-	./checkout-branches
-
