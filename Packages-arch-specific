@@ -700,7 +700,6 @@ oskit: i386 hurd-i386						      # i386 OS functions
 %partman-palo: hppa						      # Partitioner for hppa boot-loader
 %partman-prep: powerpc						      # Partition prep for powerpc
 %partman-efi: amd64 i386 ia64					      # Partitioner for ia64 boot-loader
-%picprog: !hppa !ia64 !m68k !mips !mipsel !powerpc !sparc	      # sys/io.h
 %pine: nowhere							      # [ANAIS] license does not allow modified bin distrib
 %prep-installer: powerpc					      # powerpc boot installer
 gtkpbbuttons: powerpc						      # powerpc specific
@@ -760,12 +759,14 @@ replicator: i386						      # i386 specific
 retty: i386                                     		      # [ANAIS] i386 assembly
 rio: i386 alpha							      # inb/outb (ab)use for port manipulation
 %rootstrap: i386 amd64						      # Depends on user-mode-linux
+%rovclock: !hppa !m68k !mips !mipsel !powerpc !sparc		      # sys/io.h
 %rsbac-admin: i386 sparc powerpc				      # [ANAIS] #229416
 %rscheme: i386 amd64 hurd-i386 powerpc alpha m68k s390		      # [p] Needs per-arch MM glue (cr2)
 %rscheme-modules: i386 hurd-i386 powerpc alpha s390		      # [p] depends on rscheme (& m68k has no fshell)
 %rsjog: i386							      # Sony Vaio Jog Button program
 %rtai: i386 powerpc mips mipsel arm				      # [ANAIS]
 rtlinux: i386							      # currently i386 specific
+%rxtx: !hppa !ia64 !m68k !mips !mipsel !powerpc !sparc		      # sys/io.h
 %s390-dasd: s390						      # s390 hard disk configurator
 %s390-netdevice: s390						      # s390 network configurator
 %s390-sysconfig-writer: s390 s390x				      # s390 specific
@@ -1143,7 +1144,6 @@ quantlib-ruby: !m68k
 
 # Depend on jdk1.1
 %jserv: i386
-%rxtx: !hppa !m68k
 %tomcat: i386
 
 # Depend on j2sdk1.3
