@@ -126,6 +126,7 @@ emacs19: !powerpc                                                     # too old
 %extipl: i386							      # PC boot loader
 fai-kernels: i386 powerpc amd64					      # supported kernels
 fdflush: alpha i386                                                   # i386/alpha specific
+%fenix: !alpha !amd64 !ia64                                           # not 64bit clean
 %fenris: i386							      # requires porting
 %firebird2: i386 amd64						      # requires porting, and is gone
 #%flamerobin: i386 amd64					      # build-depends firebird2.0-dev
