@@ -129,6 +129,7 @@ fdflush: alpha i386                                                   # i386/alp
 %fenix: !alpha !amd64 !ia64                                           # not 64bit clean
 %fenris: i386							      # requires porting
 %firebird2: i386 amd64						      # requires porting, and is gone
+fische: i386 amd64						      # [ANAIS] some x86 assembly
 #%flamerobin: i386 amd64					      # build-depends firebird2.0-dev
 %flash-kernel: arm armel
 %flashrom: !hppa !ia64 !m68k !mips !mipsel !powerpc !sparc	      # sys/io.h
@@ -521,6 +522,7 @@ kon2: i386                                                            # Hardcode
 %ia32-libs-kde: amd64 ia64					      # ia32 compat libs for amd64,ia64
 %ia32-libs-openoffice.org: amd64 ia64				      # ia32 compat libs for amd64,ia64
 %lcd4linux: !hppa !ia64 !m68k !mips !mipsel !powerpc !sparc	      # <sys/io.h>
+%lcdproc: !s390							      # this hardware cannot be attached
 %ledstats: i386							      # [?] ANAIS, <sys/io.h>
 %libacpi: amd64 i386 ia64 lpia					      # acpi is i386/ia64 specific
 %libc-sparc: sparc                                                    # old libc for sparc
@@ -627,6 +629,7 @@ memtest86: i386 amd64 lpia					      # i386 memory tester (bypasses OS entirely)
 %mesa-legacy: i386 alpha amd64
 %mga-vid: !m68k							      # [ANAIS]
 %mgapdesk: i386							      # [?]
+%micro-evtd: arm armel						      # driver for the micro controller of a arm-based NAS
 mig-m68k-gnu: m68k						      # kludge [stable only; removed from unstable]
 %mig: hurd-i386							      # hurd cross compiler
 mig-i386-gnu: i386                                                    # i386 specific
