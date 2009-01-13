@@ -298,6 +298,7 @@ penguin: m68k                                                         # m68k boo
 pforth: arm armel i386 m68k powerpc s390 sparc hurd-i386 hppa	      # requires explicit porting
 %pgi: i386 ia64 powerpc						      # Installer -- needs porting work
 #photopc: alpha arm hurd-i386 i386 powerpc sparc			      # Attatches through the parallel port - removed per tb@becket.net
+%plee-the-bear: !alpha !arm !armel !powerpc !s390                     # [ANAIS]
 %pmud: powerpc							      # powerpc specific
 pnputils: i386 amd64						      # x86 specific, needs a PnP-BIOS
 %pommed: i386 amd64 powerpc					      # specific to Apple laptops
