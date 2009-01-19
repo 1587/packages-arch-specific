@@ -79,7 +79,7 @@ dvr: i386 amd64							      # build-depends on avifile lib
 e3: i386							      # i386 assembly
 %eep24c: i386							      # [?] ANAIS, <sys/io.h>
 efibootmgr: i386 amd64 ia64 lpia				      # PC/ia64 boot mgr
-%efi-reader: amd64 ia64						      # ia64 specific
+%efi-reader: ia64						      # ia64 specific
 %eli: !ia64 !m68k						      # [ANAIS]
 elilo: amd64 i386 ia64 lpia					      # ia64 specific boot-loader
 %elilo-installer: i386 ia64 lpia				      # Installer for ia64 boot-loader
