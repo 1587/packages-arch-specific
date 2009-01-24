@@ -443,6 +443,7 @@ xserver-xorg-video-chips: !s390
 xserver-xorg-video-cirrus: !s390
 xserver-xorg-video-cyrix: !s390
 xserver-xorg-video-fbdev: !s390
+xserver-xorg-video-glide: !s390
 xserver-xorg-video-glint: !s390
 xserver-xorg-video-i128: !s390
 xserver-xorg-video-i740: !s390
