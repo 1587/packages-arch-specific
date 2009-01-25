@@ -411,61 +411,61 @@ wmbatppc: powerpc						      # powerpc battery monitor
 %xmbmon: i386 hurd-i386 amd64 kfreebsd-i386			      # [ANAIS] sys/io.h
 %xmovie: i386							      # [ANAIS] i386 assembly
 xpmumon: powerpc						      # powerpc specific laptop power management
-xserver-xorg-input-acecad: !s390
-xserver-xorg-input-aiptek: !s390
-xserver-xorg-input-calcomp: !s390
-xserver-xorg-input-citron: !s390
-xserver-xorg-input-digitaledge: !s390
-xserver-xorg-input-dmc: !s390
-xserver-xorg-input-dynapro: !s390
-xserver-xorg-input-elo2300: !s390
-xserver-xorg-input-elographics: !s390
-xserver-xorg-input-evdev: !s390
-xserver-xorg-input-fpit: !s390
-xserver-xorg-input-hyperpen: !s390
-xserver-xorg-input-jamstudio: !s390
-xserver-xorg-input-joystick: !s390
-xserver-xorg-input-keyboard: !s390
-xserver-xorg-input-magellan: !s390
-xserver-xorg-input-magictouch: !s390
-xserver-xorg-input-microtouch: !s390
-xserver-xorg-input-mouse: !s390
-xserver-xorg-input-mutouch: !s390
-xserver-xorg-input-palmax: !s390
-xserver-xorg-input-penmount: !s390
-xserver-xorg-input-spaceorb: !s390
-xserver-xorg-input-summa: !s390
-xserver-xorg-input-tek4957: !s390
-xserver-xorg-input-ur98: !s390
+%xserver-xorg-input-acecad: !s390
+%xserver-xorg-input-aiptek: !s390
+%xserver-xorg-input-calcomp: !s390
+%xserver-xorg-input-citron: !s390
+%xserver-xorg-input-digitaledge: !s390
+%xserver-xorg-input-dmc: !s390
+%xserver-xorg-input-dynapro: !s390
+%xserver-xorg-input-elo2300: !s390
+%xserver-xorg-input-elographics: !s390
+%xserver-xorg-input-evdev: !s390
+%xserver-xorg-input-fpit: !s390
+%xserver-xorg-input-hyperpen: !s390
+%xserver-xorg-input-jamstudio: !s390
+%xserver-xorg-input-joystick: !s390
+%xserver-xorg-input-keyboard: !s390
+%xserver-xorg-input-magellan: !s390
+%xserver-xorg-input-magictouch: !s390
+%xserver-xorg-input-microtouch: !s390
+%xserver-xorg-input-mouse: !s390
+%xserver-xorg-input-mutouch: !s390
+%xserver-xorg-input-palmax: !s390
+%xserver-xorg-input-penmount: !s390
+%xserver-xorg-input-spaceorb: !s390
+%xserver-xorg-input-summa: !s390
+%xserver-xorg-input-tek4957: !s390
+%xserver-xorg-input-ur98: !s390
 %xserver-xorg-video-amd: i386					      # i386 specific
-xserver-xorg-video-apm: !s390
-xserver-xorg-video-ark: !s390
-xserver-xorg-video-ati: !s390
-xserver-xorg-video-chips: !s390
-xserver-xorg-video-cirrus: !s390
-xserver-xorg-video-cyrix: !s390
-xserver-xorg-video-fbdev: !s390
-xserver-xorg-video-glide: !s390
-xserver-xorg-video-glint: !s390
-xserver-xorg-video-i128: !s390
-xserver-xorg-video-i740: !s390
-xserver-xorg-video-imstt: !s390
-xserver-xorg-video-intel: !s390
-xserver-xorg-video-ivtvdev: !s390
-xserver-xorg-video-mga: !s390
-xserver-xorg-video-neomagic: !s390
-xserver-xorg-video-newport: !s390
-xserver-xorg-video-nsc: !s390
-xserver-xorg-video-nv: !s390
-xserver-xorg-video-openchrome: i386 amd64 kfreebsd-i386 kfreebsd-amd64 lpia # chipset specific
-xserver-xorg-video-radeonhd: !s390
-xserver-xorg-video-rendition: !s390
-xserver-xorg-video-s3: !s390
-xserver-xorg-video-s3virge: !s390
-xserver-xorg-video-savage: !s390
-xserver-xorg-video-siliconmotion: !s390
-xserver-xorg-video-sis: !s390
-xserver-xorg-video-sisusb: !s390
+%xserver-xorg-video-apm: !s390
+%xserver-xorg-video-ark: !s390
+%xserver-xorg-video-ati: !s390
+%xserver-xorg-video-chips: !s390
+%xserver-xorg-video-cirrus: !s390
+%xserver-xorg-video-cyrix: !s390
+%xserver-xorg-video-fbdev: !s390
+%xserver-xorg-video-glide: !s390
+%xserver-xorg-video-glint: !s390
+%xserver-xorg-video-i128: !s390
+%xserver-xorg-video-i740: !s390
+%xserver-xorg-video-imstt: !s390
+%xserver-xorg-video-intel: !s390
+%xserver-xorg-video-ivtvdev: !s390
+%xserver-xorg-video-mga: !s390
+%xserver-xorg-video-neomagic: !s390
+%xserver-xorg-video-newport: !s390
+%xserver-xorg-video-nsc: !s390
+%xserver-xorg-video-nv: !s390
+%xserver-xorg-video-openchrome: i386 amd64 kfreebsd-i386 kfreebsd-amd64 lpia # chipset specific
+%xserver-xorg-video-radeonhd: !s390
+%xserver-xorg-video-rendition: !s390
+%xserver-xorg-video-s3: !s390
+%xserver-xorg-video-s3virge: !s390
+%xserver-xorg-video-savage: !s390
+%xserver-xorg-video-siliconmotion: !s390
+%xserver-xorg-video-sis: !s390
+%xserver-xorg-video-sisusb: !s390
 %xserver-xorg-video-geode: i386 lpia				      # i386 specific
 %xserver-xorg-video-intel: amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 lpia # intel platform specific
 %xserver-xorg-video-newport: mips				      # mips specific
@@ -476,16 +476,16 @@ xserver-xorg-video-sisusb: !s390
 %xserver-xorg-video-sunffb: sparc				      # sparc specific
 %xserver-xorg-video-sunleo: sparc				      # sparc specific
 %xserver-xorg-video-suntcx: sparc				      # sparc specific
-xserver-xorg-video-tdfx: !s390
-xserver-xorg-video-tga: !s390
-xserver-xorg-video-trident: !s390
-xserver-xorg-video-tseng: !s390
-xserver-xorg-video-v4l: !s390
-xserver-xorg-video-vesa: !s390
-xserver-xorg-video-vga: !s390
-xserver-xorg-video-via: !s390
-xserver-xorg-video-vmware: !s390
-xserver-xorg-video-voodoo: !s390
+%xserver-xorg-video-tdfx: !s390
+%xserver-xorg-video-tga: !s390
+%xserver-xorg-video-trident: !s390
+%xserver-xorg-video-tseng: !s390
+%xserver-xorg-video-v4l: !s390
+%xserver-xorg-video-vesa: !s390
+%xserver-xorg-video-vga: !s390
+%xserver-xorg-video-via: !s390
+%xserver-xorg-video-vmware: !s390
+%xserver-xorg-video-voodoo: !s390
 yaboot: powerpc							      # PowerPC Bootloader
 yaboot-installer: powerpc					      # PowerPC Bootloader installer
 yforth: i386 m68k sparc arm armel powerpc			      # compiler
@@ -501,7 +501,7 @@ zorroutils: m68k powerpc					      # zorro (Amiga) specific
 %xenwatch: i386							      # [ANAIS]
 
 # xorg stuff
-xserver-xorg-input-vmmouse: i386 amd64          # VMWare-specific
+%xserver-xorg-input-vmmouse: i386 amd64          # VMWare-specific
 
 # xviewg and friends - no ia64 support upstream
 xvmount: !ia64 !amd64
