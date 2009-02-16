@@ -289,6 +289,7 @@ orp: i386							      # Intel's ix86 specific JVM
 %partman-prep: powerpc						      # Partition prep for powerpc
 %partman-efi: amd64 i386 ia64					      # Partitioner for ia64 boot-loader
 %pine: nowhere							      # [ANAIS] license does not allow modified bin distrib
+%ppmd: !amd64 !alpha !ia64                                            # 32-bit only
 %prep-installer: powerpc					      # powerpc boot installer
 gtkpbbuttons: powerpc						      # powerpc specific
 pbuilder-uml: i386 amd64					      # depends on user-mode-linux
