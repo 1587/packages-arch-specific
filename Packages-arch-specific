@@ -140,7 +140,7 @@ ipmitool: i386 amd64 ia64 powerpc				      # i386 specific
 %jamvm: !m68k !mips !mipsel !sparc !hppa !ia64 !alpha !s390	      # [ANAIS]
 joystick: i386 arm armel alpha amd64 ia64 powerpc                     # others with analog joysticks?
 %kbd-chooser: !s390						      # s390 installs don't use a keyboard
-kexec-tools: i386 powerpc amd64 ppc64 ia64 s390 lpia		      # [ANAIS] based on syscall availability
+kexec-tools: armel i386 powerpc amd64 ppc64 ia64 s390 lpia            # [ANAIS] based on syscall availability
 kgb: !arm                                                             # alignment issues, no upstream support
 kon2: i386                                                            # Hardcoded i386 assembler
 %kvm: i386 amd64						      # not supported on others
