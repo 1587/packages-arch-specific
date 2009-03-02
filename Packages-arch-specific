@@ -349,7 +349,7 @@ rio: i386 alpha							      # inb/outb (ab)use for port manipulation
 sbm: i386							      # i386 boot loader
 scratchbox2: i386 amd64 powerpc ia64				      # ANAIS
 %scsh-0.6: !alpha !amd64 !ia64                  		      # [ANAIS]
-%sdl-stretch: i386 amd64 hurd-i386				      # [ANAIS]
+%sdl-stretch: i386 kfreebsd-i386 hurd-i386			      # [ANAIS]
 set6x86: i386                                                         # i386 specific
 setsccserial: m68k                                                    # m68k specific
 sibyl: mips mipsel						      # mips, mipsel boot loader
