@@ -114,7 +114,7 @@ gcc-m68k-linux: !m68k                                                 # Is an m6
 %gpart: i386 hurd-i386 ia64 alpha arm armel mipsel amd64	      # little endian specific
 gprolog: i386 mips mipsel sparc alpha powerpc amd64		      # from source
 %grub: i386 hurd-i386 amd64 lpia                                      # i386 boot loader
-%grub2: i386 kfreebsd-i386 hurd-i386 amd64 kfreebsd-amd64 powerpc ppc64 # bootloader
+%grub2: i386 kfreebsd-i386 hurd-i386 amd64 kfreebsd-amd64 powerpc ppc64 lpia # bootloader
 grub-installer: i386 amd64 hurd-i386 lpia powerpc                     # only useful if you have grub
 %gtkpbbuttons: powerpc						      # powerpc specific
 guml: i386 amd64						      # depends on user-mode-linux
