@@ -129,7 +129,7 @@ hotkey-setup: i386 amd64 lpia                        		      # specific to x86 l
 %kfreebsd-7: kfreebsd-i386 kfreebsd-amd64			      # freebsd kernel 7.x
 %i2c: i386							      # i386 specific
 %i810switch: i386						      # i386 specific
-%i8kutils: i386							      # Dell (i386) laptop utils
+%i8kutils: i386 kfreebsd-i386 amd64 kfreebsd-amd64                    # Dell (i386/amd64) laptop utils
 %ibcs: i386 sparc				              	      # Yet to be ported to other arches
 ikarus: i386							      # i386 assembly
 %ikeyd: powerpc							      # iBook hotkey daemon
