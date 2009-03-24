@@ -390,8 +390,8 @@ toshutils: i386 amd64                                                 # x86 spec
 %umlrun: i386							      # Depends on user-mod-linux
 %umview: i386 amd64 powerpc ppc64                		      # [ANAIS] needs per-arch syscall tables
 %user-mode-linux: i386 amd64					      # [?] ANAIS
-%usplash: amd64 armel i386 powerpc sparc			      # ANAIS
-usplash-theme-debian: amd64 armel i386 powerpc sparc		      # build-depends on usplash
+%usplash: amd64 armel i386 lpia powerpc sparc			      # ANAIS
+usplash-theme-debian: amd64 armel i386 lpia powerpc sparc	      # build-depends on usplash
 %uswsusp: i386 amd64 powerpc
 v86d: amd64 i386						      # x86 specific
 %valgrind: i386 amd64 powerpc lpia				      # Needs ported (asm, arch knwldge)
