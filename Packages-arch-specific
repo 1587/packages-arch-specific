@@ -684,7 +684,7 @@ vmware-package: i386 amd64					     # ANAIS
 
 # non-free
 chos: i386                                                           # i386 boot loader
-distributed-net: i386 powerpc           	                     # No source, #177134
+distributed-net: i386 amd64 ia64 sparc powerpc arm armel mipsel s390 hppa # no source, binary tarballs are added manually
 epan: i386                                                           # No source
 ines: i386                                                           # No source
 libglide2: i386                                                      # No source
