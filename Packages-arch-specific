@@ -493,6 +493,7 @@ xpmumon: powerpc						      # powerpc specific laptop power management
 yaboot: powerpc							      # PowerPC Bootloader
 yaboot-installer: powerpc					      # PowerPC Bootloader installer
 yforth: i386 m68k sparc arm armel powerpc			      # compiler
+%ypsilon: i386 amd64                                                  # ANAIS
 z8530-utils: i386                                                     # PC-architecture specific
 zblast-svgalib: i386						      # i386 only per David Pashley
 %zipl-installer: s390						      # installer stuff
