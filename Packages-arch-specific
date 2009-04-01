@@ -680,7 +680,7 @@ tya: i386							     # Java JIT for i386
 gsnes9x: amd64 i386 m68k mips powerpc sparc     		     # ANAIS - depends on snes9x-x
 ogre-contrib: i386 amd64                        		     # [ANAIS] b-d nvidia-cg-toolkit
 vmware-package: i386 amd64					     # ANAIS
-
+%vmware-view-open-client: amd64 i386                                 # ANAIS
 
 # non-free
 chos: i386                                                           # i386 boot loader
