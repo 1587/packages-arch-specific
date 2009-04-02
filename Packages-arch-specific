@@ -74,6 +74,7 @@ crash: amd64 i386 ia64 alpha powerpc				      # not yet ported to other platform
 %drawterm: !hppa						      # No source support
 %drdsl: i386 amd64						      # [ANAIS]
 %drscheme: alpha amd64 hppa i386 m68k mips mipsel powerpc sparc	      # [ANAIS]
+debian-edu-artwork-usplash: i386 amd64 powerpc sparc                  # needs usplash
 dosemu: i386 amd64                                                    # Hardcoded i386 assembler
 dvr: i386 amd64							      # build-depends on avifile lib
 e3: i386							      # i386 assembly
