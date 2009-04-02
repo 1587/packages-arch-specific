@@ -279,6 +279,7 @@ nwutil: arm							      # arm only
 %openhackware: powerpc						      # per Guillem Jover
 %oprofile: amd64 i386 ia64 alpha armel hppa powerpc sparc	      # [ANAIS]
 orp: i386							      # Intel's ix86 specific JVM
+orpie: !hppa !sparc                                                   # #444494
 %partimage: !ia64 !alpha !amd64					      # 64-bit is br0ken
 %paxtest: i386							      # [ANAIS]
 %pbbuttonsd: powerpc						      # powerpc specific
