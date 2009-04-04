@@ -86,6 +86,7 @@ elilo: amd64 i386 ia64 lpia					      # ia64 specific boot-loader
 %elilo-installer: i386 ia64 lpia				      # Installer for ia64 boot-loader
 %etherboot: i386						      # i386 specific
 fakeroot-ng: amd64 i386 powerpc					      # ANAIS
+%faumachine: amd64 i386                                               # uses x86-specific switches
 fdflush: alpha i386                                                   # i386/alpha specific
 %fenix: !alpha !amd64 !ia64                                           # not 64bit clean
 %firebird2: i386 amd64						      # requires porting, and is gone
