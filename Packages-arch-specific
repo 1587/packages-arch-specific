@@ -377,6 +377,7 @@ svgatextmode: i386 amd64                                              # Hardcode
 syslinux: i386 amd64 lpia                                             # i386 boot loader thingy
 %sysprof: i386 amd64                            		      # x86-specific kernel module, ANAIS
 %systemimager: i386						      # hand built, to be truthful.
+%systemtap: i386 amd64 ia64 s390 powerpc arm armel armeb              # needs kernel support
 tcc: i386							      # i386 only C compiler.
 tendra: i386							      # i386 specific (compiler)
 %tom: alpha i386 m68k powerpc					      # [?] needs porting
