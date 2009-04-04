@@ -248,6 +248,8 @@ mkrboot: i386                                                         # i386 boo
 %mkvmlinuz: powerpc						      # Powerpc kernel from open firmware.
 mlton: amd64 i386 hppa powerpc sparc				      # Self-hosting ML compiler
 mocka: i386							      # i386 only compiler
+%mol: powerpc							      # Mac-on-linux; requires a powerpc.
+%mol-drivers-linux: powerpc					      # Mac-on-linux; requires a powerpc
 mondo: i386 amd64						      # needs mindi
 %mono: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia # needs per-architecture porting
 morse: i386							      # i386 specific
@@ -265,6 +267,7 @@ ndisgtk: i386 amd64						      # depends on ndiswrapper
 %nictools-nopci: i386						      # [?] ISA nictools
 %nictools-pci: i386 arm armel alpha				      # [ANAIS]
 nikwi: alpha amd64 arm armel kfreebsd-i386 kfreebsd-amd64 hurd-i386 ia64 mipsel # Only little endian support
+nvidia-xconfig: i386 amd64 ia64					      # i386 specific, but match what's in the archive
 %gpart: i386 hurd-i386 ia64 alpha arm armel mipsel amd64	      # little endian specific
 %nsis: i386 amd64						      # [ANAIS]
 %nslu2-utils: arm armeb armel					      # ARM specific
@@ -496,6 +499,7 @@ xpmumon: powerpc						      # powerpc specific laptop power management
 %xserver-xorg-video-voodoo: !s390
 yaboot: powerpc							      # PowerPC Bootloader
 yaboot-installer: powerpc					      # PowerPC Bootloader installer
+%yacpi: i386 amd64 ia64						      # acpi is i386/amd64/ia64 specific
 yforth: i386 m68k sparc arm armel powerpc			      # compiler
 %ypsilon: i386 amd64                                                  # ANAIS
 z8530-utils: i386                                                     # PC-architecture specific
@@ -503,6 +507,7 @@ z88dk: !alpha                                                         # 32bit on
 zblast-svgalib: i386						      # i386 only per David Pashley
 %zipl-installer: s390						      # installer stuff
 zorroutils: m68k powerpc					      # zorro (Amiga) specific
+zsnes: i386							      # Mostly written in i386 assembler
 
 # xen stuff
 %xen: i386							      # [ANAIS]
@@ -521,6 +526,7 @@ treetool: !ia64 !amd64
 imaze-xview: !ia64 !amd64
 %imaze: !ia64 !amd64
 xjove: !ia64 !amd64
+%xview: !ia64							     # [ANAIS] see #125391
 xviewg: !ia64 !amd64
 xviewg-dev: !ia64 !amd64
 xview-clients: !ia64 !amd64
@@ -676,33 +682,18 @@ dynagen: i386							     # ANAIS
 etoken-pro-support: i386					     # ANAIS
 flashplugin-nonfree-extrasound: i386				     # ANAIS
 microcode.ctl: i386 amd64					     # i386 microcode updates
-%mol: powerpc							     # Mac-on-linux; requires a powerpc.
 %mol-drivers-macos: powerpc					     # Mac-on-linux; requires a powerpc
-%mol-drivers-macosx: powerpc					     # Mac-on-linux; requires a powerpc
-%mol-drivers-linux: powerpc					     # Mac-on-linux; requires a powerpc
-%mol-modules: powerpc						     # Mac-on-linux; requires a powerpc.
+nestra: i386							     # i386 assembler
+nvidia-cg-toolkit: i386 amd64					     # i386 specific, but match what's in the archive
+nvidia-settings: i386 amd64 ia64 				     # i386 specific, but match what's in the archive
 %pycg: amd64 i386						     # x86 specific
-tya: i386							     # Java JIT for i386
-gsnes9x: amd64 i386 m68k mips powerpc sparc     		     # ANAIS - depends on snes9x-x
 ogre-contrib: i386 amd64                        		     # [ANAIS] b-d nvidia-cg-toolkit
 vmware-package: i386 amd64					     # ANAIS
 %vmware-view-open-client: amd64 i386                                 # ANAIS
 
 # non-free
-chos: i386                                                           # i386 boot loader
 distributed-net: i386 amd64 ia64 sparc powerpc arm armel mipsel s390 hppa # no source, binary tarballs are added manually
-epan: i386                                                           # No source
 %fglrx-driver: i386 amd64                                            # x86-specific
-ines: i386                                                           # No source
-libglide2: i386                                                      # No source
-nestra: i386							     # i386 assembler
-nvidia-settings: i386 amd64 ia64 				     # i386 specific, but match what's in the archive
-nvidia-xconfig: i386 amd64 ia64					     # i386 specific, but match what's in the archive
-nvidia-cg-toolkit: i386 amd64					     # i386 specific, but match what's in the archive
-quick-arrays: i386					      	     # ???
+%mol-drivers-macosx: powerpc					     # Mac-on-linux; requires a powerpc
 rar: i386 amd64							     # shareware for i386 only
-setiathome: i386 powerpc alpha sparc hppa ia64			     # No source
-unicorn: i386							     # driver stuff, #267730
-%xview: !ia64							     # [ANAIS] see #125391
-%yacpi: i386 amd64 ia64						     # acpi is i386/amd64/ia64 specific
-zsnes: i386							     # Mostly written in i386 assembler
+
