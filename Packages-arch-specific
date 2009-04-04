@@ -692,6 +692,7 @@ vmware-package: i386 amd64					     # ANAIS
 chos: i386                                                           # i386 boot loader
 distributed-net: i386 amd64 ia64 sparc powerpc arm armel mipsel s390 hppa # no source, binary tarballs are added manually
 epan: i386                                                           # No source
+%fglrx-driver: i386 amd64                                            # x86-specific
 ines: i386                                                           # No source
 libglide2: i386                                                      # No source
 nestra: i386							     # i386 assembler
