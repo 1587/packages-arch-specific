@@ -643,6 +643,8 @@ quantlib-ruby: !m68k
 %clisp: !m68k							# "too buggy, no one willing to fix"
 %mcvs: !m68k							# clisp
 
+# kfreebsd
+%kfreebsd-kernel-headers: kfreebsd-amd64 kfreebsd-i386
 
 ####################################################################################
 # Contrib and non-free
