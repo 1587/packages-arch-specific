@@ -253,8 +253,8 @@ mocka: i386							      # i386 only compiler
 mondo: i386 amd64						      # needs mindi
 %mono: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia # needs per-architecture porting
 morse: i386							      # i386 specific
-%mozart: !alpha !ia64 !amd64					      # 'who would ever need > 32-bits??'
-%mozart-stdlib: !alpha !ia64 !amd64				      # depends mozart
+%mozart: !alpha !ia64 !amd64 !kfreebsd-amd64                          # 'who would ever need > 32-bits??'
+%mozart-stdlib: !alpha !ia64 !amd64 !kfreebsd-amd64                   # depends mozart (currently arch:all)
 %mpt-status: !hppa						      # [ANAIS]
 mps: i386							      # mosix procps tools
 mv2120-utils: arm armel                                               # ARM specific
