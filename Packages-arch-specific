@@ -538,12 +538,6 @@ olwm: !ia64 !amd64
 # ocaml stuff
 %spamoracle: !alpha !arm !armel !hppa !ia64 !m68k !mips !mipsel !s390 # no ocamlopt, maint says "don't build" See 200566
 
-# libc5 compat stuff
-%ld.so: i386                                                          # libc5 dynamic linker
-%libc: i386                                                           # old libc5 stuff
-%regex: i386                                                          # Pure libc5-compat package
-%xpm: i386							      # libc5 compat version of xpm
-
 # isdnutils has one arch: any package (isdnvboxclient), so we can't % it ....
 isdnutils: amd64 alpha arm armel i386 ia64 m68k powerpc sparc mips mipsel lpia
 isdnutils-xtools: amd64 alpha arm armel i386 ia64 m68k powerpc sparc mips mipsel lpia
