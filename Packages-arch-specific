@@ -24,7 +24,6 @@ aboot: alpha							      # alpha boot loader
 %aboot-installer: alpha					              # alpha boot loader installer	
 acpi: i386 ia64	amd64 lpia					      # acpi is i386/ia64 specific
 %acpi-support: i386 amd64 ia64 lpia				      # [ANAIS]
-#%acpica-unix: !hppa						      # #401153 - no big-endian support
 acpid: i386 ia64 amd64 lpia					      # acpi is i386/ia64 specific
 acpidump: i386 ia64 amd64 lpia					      # acpi is i386/ia64 specific
 %acpitail: amd64 i386 ia64 lpia					      # acpi is i386/ia64 specific
@@ -50,7 +49,6 @@ binutils-m68k-linux: !m68k                                            # Is an m6
 bluez-pcmcia-support: !s390					      # [ANAIS] depends: pcmcia-cs
 bmconf: i386							      # i386 boot loader
 %brdesktop-flavours: amd64 i386 powerpc				      # limited BrDesktop architectures
-#bsign: !ia64 !alpha						      # ELF32 only
 bsign: i386							      # [ANAIS] see #148438
 %cacao: !ia64 !hppa
 catsboot: arm							      # arm bootloader
@@ -87,12 +85,10 @@ fakeroot-ng: amd64 i386 powerpc					      # ANAIS
 fdflush: alpha i386                                                   # i386/alpha specific
 %fenix: !alpha !amd64 !ia64                                           # not 64bit clean
 fische: i386 amd64						      # [ANAIS] some x86 assembly
-#%flamerobin: i386 amd64					      # build-depends firebird2.0-dev
 %flash-kernel: arm armel
 %flashrom: amd64 i386 kfreebsd-amd64 kfreebsd-i386 alpha hurd-i386    # ANAIS
 %fnfx: i386							      # toshiba laptop specific
 framewave: amd64 i386						      # ANAIS
-#freej: i386							      # contains i386 assembler
 %fuse-umfuse-iso9660: amd64 i386 powerpc ppc64                	      # build-depends on umview
 %gatos: i386							      # no upstream !i386 support
 %gcc-3.3: amd64 i386 lpia powerpc				      # only libstdc++5 is built
@@ -262,6 +258,7 @@ nwutil: arm							      # arm only
 %openafs: alpha amd64 arm armel i386 ia64 lpia powerpc ppc64 s390 s390x sparc # needs explicit porting
 %open-vm-tools: i386 amd64					      # [ANAIS]
 %openhackware: powerpc						      # per Guillem Jover
+%openoffice.org: !hppa !alpha                                         # 491623
 %oprofile: amd64 i386 ia64 alpha armel hppa powerpc sparc	      # [ANAIS]
 orp: i386							      # Intel's ix86 specific JVM
 orpie: !hppa !sparc                                                   # #444494
@@ -281,13 +278,11 @@ orpie: !hppa !sparc                                                   # #444494
 gtkpbbuttons: powerpc						      # powerpc specific
 pbuilder-uml: i386 amd64					      # depends on user-mode-linux
 pciutils: !m68k                                                       # m68k doesn't do PCI; others?
-#%pcmcia-cs: i386 arm alpha powerpc ia64                              # should build anywhere with PCI now?
 %pcmcia-cs: !s390						      # everywhere else has bridges.
 pearpc: i386 amd64 hurd-i386					      # [ANAIS]
 penguin: m68k                                                         # m68k boot loader
 %pfmon: ia64							      # ia64 specific
 pforth: arm armel i386 m68k powerpc s390 sparc hurd-i386 hppa	      # requires explicit porting
-#photopc: alpha arm hurd-i386 i386 powerpc sparc			      # Attatches through the parallel port - removed per tb@becket.net
 %plee-the-bear: !alpha !arm !armel !powerpc !s390                     # [ANAIS]
 %pmud: powerpc							      # powerpc specific
 pnputils: i386 amd64						      # x86 specific, needs a PnP-BIOS
@@ -350,7 +345,6 @@ silo: sparc							      # sparc lilo
 subterfugue: i386						      # i386 specific process tracing etc.
 %superiotool: !hppa !ia64 !m68k !mips !mipsel !powerpc !sparc	      # sys/io.h
 suspend2-userui: i386 ia64 powerpc ppc64 amd64  		      # [ANAIS] software suspend support
-#%supercollider: !alpha !ia64 !amd64				      # doesn't work with 64bit, #276212
 spu-tools: powerpc ppc64					      # PowerPC specific
 %svgalib: i386 amd64                                                  # PC-Architecture specific
 svgatextmode: i386 amd64                                              # Hardcoded i386 assembler
@@ -559,14 +553,6 @@ gnat-gps:             alpha amd64 hppa i386 ia64 lpia kfreebsd-i386 mips mipsel 
 %music123: !arm !armel !m68k
 ghdl: !m68k
 
-# ghc6 now available ofr all architectures, per Ian Lynagh
-# ghc6 requires itself to build itself
-#%ghc6: alpha amd64 hppa i386 m68k s390 sparc ia64 powerpc mipsel
-#%alex: alpha amd64 hppa i386 m68k s390 sparc ia64 powerpc mipsel
-#happy: alpha amd64 hppa i386 m68k s390 sparc ia64 powerpc mipsel
-#haddock: alpha amd64 hppa i386 m68k s390 sparc ia64 powerpc mipsel
-#%ghc-cvs: alpha amd64 hppa i386 m68k s390 sparc ia64 powerpc mipsel	      # changed per Ian Lynagh
-
 # IEEE-1394 Firewire
 coriander: !m68k
 dvgrab: !m68k
@@ -579,12 +565,6 @@ fnord: !m68k							# build-depend on dietlibc-dev:
 minit: !m68k							# build-depend on dietlibc-dev:
 slidentd: !m68k							# build-depend on dietlibc-dev:
 util-vserver: !m68k						# build-depend on dietlibc-dev:
-
-# Open office - no 64-bit support quite yet
-# OO produces libmythes-dev on archs it isn't ported to, and -voikko is part of the same mess
-#%openoffice.org: i386 sparc powerpc s390
-#%openoffice.org-voikko: i386 sparc powerpc amd64 ia64 s390	     # Depends on openoffice.org
-%openoffice.org: !hppa !alpha                                        # 491623
 
 # fp-compiler stuff
 %fpc: arm armel i386 sparc powerpc amd64			      # self-hosting pascal compiler
@@ -608,7 +588,6 @@ quantlib-ruby: !m68k
 # NB: non-free isn't auto-built so this is likely very out-of-date
 
 # Depend on j2sdk1.3
-#%charva: i386
 %commons-beanutils: i386
 %jmp: i386
 
