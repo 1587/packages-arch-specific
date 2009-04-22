@@ -45,7 +45,6 @@ atitvout: i386							      # i386 specific
 autorun4linuxcd: i386 amd64					      # MS Windows specific
 %avifile: i386 amd64						      # i386 Win32 DLLs needed/executed
 %avrprog: i386 							      # inb/outb (ab)use
-%awe: i386 alpha                                                      # PC-Architecture specific
 %baycomepp: i386 alpha amd64					      # [ANAIS]
 binutils-m68k-linux: !m68k                                            # Is an m68k cross-compiler
 bluez-pcmcia-support: !s390					      # [ANAIS] depends: pcmcia-cs
@@ -67,7 +66,6 @@ cpushare: amd64 i386 ppc64 powerpc				      # [ANAIS]
 crash: amd64 i386 ia64 alpha powerpc				      # not yet ported to other platforms
 %ctypes: !m68k							      # ROM
 %cpuburn: i386 amd64						      # i386 stress tester
-%detect: alpha i386						      # build-depend on isapnptools binary
 %dfsbuild: alpha amd64 i386 powerpc				      # [ANAIS]
 %digitools: i386						      # [ANAIS]
 %dmidecode: i386 ia64 amd64 lpia				      # [ANAIS]
@@ -81,7 +79,6 @@ e3: i386							      # i386 assembly
 %eep24c: i386							      # [?] ANAIS, <sys/io.h>
 efibootmgr: i386 amd64 ia64 lpia				      # PC/ia64 boot mgr
 %efi-reader: ia64						      # ia64 specific
-%eli: !ia64 !m68k						      # [ANAIS]
 elilo: amd64 i386 ia64 lpia					      # ia64 specific boot-loader
 %elilo-installer: i386 ia64 lpia				      # Installer for ia64 boot-loader
 %etherboot: i386						      # i386 specific
@@ -89,7 +86,6 @@ fakeroot-ng: amd64 i386 powerpc					      # ANAIS
 %faumachine: amd64 i386                                               # uses x86-specific switches
 fdflush: alpha i386                                                   # i386/alpha specific
 %fenix: !alpha !amd64 !ia64                                           # not 64bit clean
-%firebird2: i386 amd64						      # requires porting, and is gone
 fische: i386 amd64						      # [ANAIS] some x86 assembly
 #%flamerobin: i386 amd64					      # build-depends firebird2.0-dev
 %flash-kernel: arm armel
@@ -98,7 +94,6 @@ fische: i386 amd64						      # [ANAIS] some x86 assembly
 framewave: amd64 i386						      # ANAIS
 #freej: i386							      # contains i386 assembler
 %fuse-umfuse-iso9660: amd64 i386 powerpc ppc64                	      # build-depends on umview
-%gambas: !alpha !ia64 !amd64 !ppc64				      # ANAIS - no 64-bit support until gambas3
 %gatos: i386							      # no upstream !i386 support
 %gcc-3.3: amd64 i386 lpia powerpc				      # only libstdc++5 is built
 gcc-m68k-linux: !m68k                                                 # Is an m68k cross-compiler
@@ -106,7 +101,6 @@ gcc-m68k-linux: !m68k                                                 # Is an m6
 %ggcov: i386							      # [ANAIS] endianness issues, etc.
 %gkrellm-i8k: i386						      # Dell (i386) laptop krell
 %gkrellm-x86info: i386						      # x86 Mhz plugin
-%glantank: arm armel
 %glide: i386 alpha ia64 amd64					      # i386+alpha+... specific
 %gmod: i386                                                           # i386 specific
 %gpmudmon-applet: powerpc					      # PMUD is powerpc APM
@@ -127,16 +121,12 @@ hdapsd: i386 amd64 powerpc                      		      # IBM/Apple laptop speci
 hotkey-setup: i386 amd64 lpia                        		      # specific to x86 laptop models
 %hs-plugins: i386 amd64                         		      # [ANAIS] requires ghci
 %hurd: hurd-i386						      # hurd kernel
-%kfreebsd-6: kfreebsd-i386 kfreebsd-amd64			      # freebsd kernel 6.x
 %kfreebsd-7: kfreebsd-i386 kfreebsd-amd64			      # freebsd kernel 7.x
-%i2c: i386							      # i386 specific
 %i810switch: i386						      # i386 specific
 %i8kutils: i386 kfreebsd-i386 amd64 kfreebsd-amd64                    # Dell (i386/amd64) laptop utils
-%ibcs: i386 sparc				              	      # Yet to be ported to other arches
 ikarus: i386							      # i386 assembly
 %ikeyd: powerpc							      # iBook hotkey daemon
 %invaders: i386 hurd-i386 kfreebsd-i386 amd64 kfreebsd-amd64	      # x86 assembly
-%ire: !alpha !amd64 !ia64                       		      # [ANAIS]
 ipmitool: i386 amd64 ia64 powerpc				      # i386 specific
 %isight-firmware-tools: i386 amd64				      # [ANAIS]
 %jamvm: !m68k !mips !mipsel !sparc !hppa !ia64 !alpha !s390	      # [ANAIS]
@@ -152,12 +142,8 @@ kon2: i386                                                            # Hardcode
 %lcdproc: !s390							      # this hardware cannot be attached
 %ledstats: i386							      # [?] ANAIS, <sys/io.h>
 %libacpi: amd64 i386 ia64 lpia					      # acpi is i386/ia64 specific
-%libdb: i386                                                          # db1 compatibility library
 %libdbd-informix-perl: i386                                           # ANAIS
-%libdscaler: i386						      # x86 windoze dlls
 %libextractor-java: amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips mipsel powerpc s390 sparc	# [ANAIS]
-%libfloat: arm							      # arm FP emulator lib
-%libffm: alpha							      # alpha specific library
 %libfreebasic: i386 kfreebsd-i386 hurd-i386			      # x86 assembly
 %libgcr410: i386 amd64						      # [ANAIS]
 %libopenspc: i386						      # i386 assembler
@@ -165,8 +151,6 @@ kon2: i386                                                            # Hardcode
 %libsendmail-milter-perl: !ia64					      # ANAIS
 %libsmbios: i386 amd64 ia64 lpia				      # ANAIS
 %libparportled: i386						      # [?] ANAIS, <sys/io.h>
-%libpfm: ia64							      # library for pfmon
-%libpfm3: ia64							      # library for pfmon
 %libpfm3-3.2: ia64 amd64 i386 mips mipsel powerpc		      # [ANAIS]
 %libspe2: powerpc pcp64						      # PowerPC specific
 %libunwind: ia64						      # [ANAIS]
@@ -174,7 +158,6 @@ kon2: i386                                                            # Hardcode
 %lightning: i386 powerpc sparc					      # not supported upstream for others
 %lilo: i386 amd64 lpia                                                # i386 boot loader
 lilo-installer: i386 amd64 lpia					      # only useful if you have lilo
-%linux32: !m68k !alpha					 	      # m68k is always 32-bit and alpha is always 64
 %linux-kernel-di: i386						      # i386 specific
 %linux-kernel-di-i386: i386
 %linux-kernel-di-i386-2.6: i386
@@ -212,7 +195,6 @@ lilo-installer: i386 amd64 lpia					      # only useful if you have lilo
 %linux-modules-di-powerpc-2.6: powerpc
 %linux-modules-di-s390-2.6: s390
 %linux-modules-di-sparc-2.6: sparc
-%linux-uvc: i386 amd64						      # mactel firmware extractor
 %linux-wlan-ng: amd64 i386 powerpc arm armel alpha hppa lpia	      # ANAIS [?]
 lirc-svga: i386							      # ANAIS, #267323
 %lldpd: !kfreebsd-i386 !kfreebsd-amd64 !hurd-i386                     # Linux-specific
@@ -236,7 +218,6 @@ mbr: i386 amd64 lpia                                                  # i386 boo
 %mcelog: i386 amd64						      # [ANAIS]
 memtest86: i386 amd64 lpia					      # i386 memory tester (bypasses OS entirely)
 %memtest86+: i386 amd64 lpia					      # i386 memory tester (bypasses OS entirely)
-%mesa-legacy: i386 alpha amd64
 %mga-vid: !m68k							      # [ANAIS]
 %micro-evtd: arm armel						      # driver for the micro controller of a arm-based NAS
 %mig: hurd-i386							      # hurd cross compiler
@@ -264,7 +245,6 @@ mv2120-utils: arm armel                                               # ARM spec
 ndisgtk: i386 amd64						      # depends on ndiswrapper
 %ndiswrapper: i386 amd64                                              # Windows DLL loader
 %nel: i386 amd64						      # [ANAIS] 0.6.0 should get more portable they say
-%nhc98: !ia64 !alpha !amd64 !sparc !m68k			      # Per Ian Lynagh <igloo@earth.li>
 %nictools-nopci: i386						      # [?] ISA nictools
 %nictools-pci: i386 arm armel alpha				      # [ANAIS]
 nikwi: alpha amd64 arm armel kfreebsd-i386 kfreebsd-amd64 hurd-i386 ia64 mipsel # Only little endian support
@@ -279,7 +259,6 @@ nvram-wakeup: i386 amd64					      # i386 BIOS specific
 %nvtv: i386 amd64						      # [?] ANAIS, <sys/io.h>
 nwutil: arm							      # arm only
 %ocamlgsl: !hppa !sparc						      # [ANAIS] upstream and alignment issues
-%octave2.0: !ia64 !hppa						      # uses octave2.1 instead
 %openafs: alpha amd64 arm armel i386 ia64 lpia powerpc ppc64 s390 s390x sparc # needs explicit porting
 %open-vm-tools: i386 amd64					      # [ANAIS]
 %openhackware: powerpc						      # per Guillem Jover
@@ -308,7 +287,6 @@ pearpc: i386 amd64 hurd-i386					      # [ANAIS]
 penguin: m68k                                                         # m68k boot loader
 %pfmon: ia64							      # ia64 specific
 pforth: arm armel i386 m68k powerpc s390 sparc hurd-i386 hppa	      # requires explicit porting
-%pgi: i386 ia64 powerpc						      # Installer -- needs porting work
 #photopc: alpha arm hurd-i386 i386 powerpc sparc			      # Attatches through the parallel port - removed per tb@becket.net
 %plee-the-bear: !alpha !arm !armel !powerpc !s390                     # [ANAIS]
 %pmud: powerpc							      # powerpc specific
@@ -343,7 +321,6 @@ retty: i386                                     		      # [ANAIS] i386 assembly
 rio: i386 alpha							      # inb/outb (ab)use for port manipulation
 %rootstrap: i386 amd64						      # Depends on user-mode-linux
 %rovclock: !hppa !m68k !mips !mipsel !powerpc !sparc		      # sys/io.h
-%rscheme: i386 amd64 hurd-i386 powerpc alpha m68k s390		      # [p] Needs per-arch MM glue (cr2)
 %rtai: i386 powerpc mips mipsel arm				      # [ANAIS]
 %rxtx: !hppa !ia64 !m68k !mips !mipsel !powerpc !sparc		      # sys/io.h
 %s390-dasd: s390						      # s390 hard disk configurator
@@ -364,7 +341,6 @@ sibyl: mips mipsel						      # mips, mipsel boot loader
 sibyl-installer: mips mipsel					      # mips, mipsel boot loader
 silo: sparc							      # sparc lilo
 %silo-installer: sparc						      # sparc lilo
-%sjog: i386							      # Sony VAIO laptop tool
 %smlnj: amd64 i386 powerpc                                            # i386 specific
 %sparc-utils: sparc                                                   # sparc specific
 %spicctrl: i386							      # For Sony VAIO laptops
@@ -381,7 +357,6 @@ svgatextmode: i386 amd64                                              # Hardcode
 %sysconfig: s390						      # ANAIS s390 specific
 syslinux: i386 amd64 lpia                                             # i386 boot loader thingy
 %sysprof: i386 amd64                            		      # x86-specific kernel module, ANAIS
-%systemimager: i386						      # hand built, to be truthful.
 %systemtap: i386 amd64 ia64 s390 powerpc arm armel armeb              # needs kernel support
 tcc: i386							      # i386 only C compiler.
 tendra: i386							      # i386 specific (compiler)
@@ -389,7 +364,6 @@ tendra: i386							      # i386 specific (compiler)
 toshset: i386 amd64						      # i386 specific
 toshutils: i386 amd64                                                 # x86 specific
 %tpb: i386 amd64						      # x86 specific
-%tpctl: i386							      # i386 specific
 %tra: i386							      # [ANAIS]
 %tremulous: !m68k						      # No m68k support
 %tuxonice-userui: i386 ia64 powerpc ppc64 amd64                       # [ANAIS]
@@ -419,7 +393,6 @@ wmacpi: i386 amd64						      # i386 specific
 wmbatppc: powerpc						      # powerpc battery monitor
 %x86info: i386 amd64						      # i386 CPU info prog
 %xfree86-driver-synaptics: !s390				      # Needs xserver-xfree86
-%xine: i386							      # i386 assembler
 %xmbmon: i386 hurd-i386 amd64 kfreebsd-i386			      # [ANAIS] sys/io.h
 %xmovie: i386							      # [ANAIS] i386 assembly
 xpmumon: powerpc						      # powerpc specific laptop power management
@@ -449,7 +422,6 @@ xpmumon: powerpc						      # powerpc specific laptop power management
 %xserver-xorg-input-summa: !s390
 %xserver-xorg-input-tek4957: !s390
 %xserver-xorg-input-ur98: !s390
-%xserver-xorg-video-amd: i386					      # i386 specific
 %xserver-xorg-video-apm: !s390
 %xserver-xorg-video-ark: !s390
 %xserver-xorg-video-ati: !s390
@@ -495,7 +467,6 @@ xpmumon: powerpc						      # powerpc specific laptop power management
 %xserver-xorg-video-v4l: !s390
 %xserver-xorg-video-vesa: !s390
 %xserver-xorg-video-vga: !s390
-%xserver-xorg-video-via: !s390
 %xserver-xorg-video-vmware: !s390
 %xserver-xorg-video-voodoo: !s390
 yaboot: powerpc							      # PowerPC Bootloader
@@ -511,7 +482,6 @@ zorroutils: m68k powerpc					      # zorro (Amiga) specific
 zsnes: i386							      # Mostly written in i386 assembler
 
 # xen stuff
-%xen: i386							      # [ANAIS]
 %xen-3: amd64 i386                            		     	      # [ANAIS]
 %xen-unstable: amd64 i386                       		      # [ANAIS]
 %xenwatch: i386							      # [ANAIS]
@@ -549,7 +519,6 @@ libcapi20: amd64 alpha arm armel i386 ia64 m68k powerpc sparc mips mipsel lpia
 isdnactivecards: amd64 alpha arm armel i386 ia64 m68k powerpc sparc mips mipsel lpia
 pppdcapiplugin: amd64 alpha arm armel i386 ia64 m68k powerpc sparc mips mipsel lpia
 isdneurofile: amd64 alpha arm armel i386 ia64 m68k powerpc sparc mips mipsel lpia
-%chan-capi: amd64 alpha arm armel i386 ia64 m68k powerpc sparc mips mipsel lpia
 %capi4hylafax: amd64 alpha arm armel i386 ia64 m68k powerpc sparc mips mipsel lpia
 
 ## Depend: on svglaib
@@ -567,11 +536,6 @@ zgv: amd64 i386
 cil: i386
 %cmucl: i386
 series: i386
-%clue: i386
-
-## Depend: on gnat
-%gnat: !m32r !m68k				      # [ANAIS] upstream support list
-%gch: !m32r !m68k
 
 ## Depend: on libgnat-4.3
 adacontrol:           alpha amd64 hppa i386 ia64 kfreebsd-i386 mips mipsel s390 sparc powerpc # b-d on asis
@@ -585,7 +549,6 @@ gnat-gps:             alpha amd64 hppa i386 ia64 lpia kfreebsd-i386 mips mipsel 
 %libaws:              alpha amd64 hppa i386 ia64 kfreebsd-i386 mips mipsel s390 sparc powerpc # b-d on asis, libxmlada2, libtemplates-parser
 %libflorist:          alpha amd64 hppa i386 ia64 kfreebsd-i386 mips mipsel s390 sparc powerpc
 %libgtkada2:          alpha amd64 hppa i386 ia64 lpia kfreebsd-i386 mips mipsel s390 sparc powerpc
-%libopentoken:        alpha amd64 hppa i386 ia64 kfreebsd-i386 mips mipsel s390 sparc powerpc
 %opentoken:           alpha amd64 hppa i386 ia64 kfreebsd-i386 mips mipsel s390 sparc powerpc
 %libtemplates-parser: alpha amd64 hppa i386 ia64 lpia kfreebsd-i386 mips mipsel s390 sparc powerpc
 %libtexttools:        alpha amd64 hppa i386 ia64 kfreebsd-i386 mips mipsel s390 sparc powerpc
@@ -636,7 +599,6 @@ quantlib-python: !m68k
 quantlib-ruby: !m68k
 %rquantlib: !m68k
 %clisp: !m68k							# "too buggy, no one willing to fix"
-%mcvs: !m68k							# clisp
 
 # kfreebsd
 %kfreebsd-kernel-headers: kfreebsd-amd64 kfreebsd-i386
@@ -645,24 +607,10 @@ quantlib-ruby: !m68k
 # Contrib and non-free
 # NB: non-free isn't auto-built so this is likely very out-of-date
 
-# Installer packages for Alpha-specific Compaq toolchain programs
-%libots: alpha
-%cxx: alpha
-%cpml: alpha
-%ccc: alpha
-%cxml: alpha
-
-# Depend on jdk1.1
-%jserv: i386
-%tomcat: i386
-
 # Depend on j2sdk1.3
 #%charva: i386
 %commons-beanutils: i386
-%commons-collections: i386
-%commons-digester: i386
 %jmp: i386
-%nbio: i386
 
 # Build-Depends on lw-installer
 
