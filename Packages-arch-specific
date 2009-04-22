@@ -388,7 +388,7 @@ tendra: i386							      # i386 specific (compiler)
 %tom: alpha i386 m68k powerpc					      # [?] needs porting
 toshset: i386 amd64						      # i386 specific
 toshutils: i386 amd64                                                 # x86 specific
-%tpb: i386							      # i386 specific
+%tpb: i386 amd64						      # x86 specific
 %tpctl: i386							      # i386 specific
 %tra: i386							      # [ANAIS]
 %tremulous: !m68k						      # No m68k support
