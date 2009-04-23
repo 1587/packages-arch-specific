@@ -209,7 +209,7 @@ memtest86: i386 amd64 lpia					      # i386 memory tester (bypasses OS entirely)
 %micro-evtd: arm armel						      # driver for the micro controller of a arm-based NAS
 %mig: hurd-i386							      # hurd cross compiler
 mindi: i386 amd64						      # i386 boot disk creator
-%mindi-busybox: i386						      # [ANAIS] depends mindi
+%mindi-busybox: i386 amd64                                            # [ANAIS] depends mindi
 %mit-scheme: i386						      # Circular self-build-depends (requires itself to build itself)
 mknbi: i386							      # i386 specific
 mkrboot: i386                                                         # i386 boot loader utilities
