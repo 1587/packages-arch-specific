@@ -183,6 +183,7 @@ lilo-installer: i386 amd64 lpia					      # only useful if you have lilo
 %linux-modules-di-sparc-2.6: sparc
 %linux-wlan-ng: amd64 i386 powerpc arm armel alpha hppa lpia	      # ANAIS [?]
 lirc-svga: i386							      # ANAIS, #267323
+%lisaac: !alpha !amd64 !ia64 !kfreebsd-amd64                          # no 64-bit support
 %lldpd: !kfreebsd-i386 !kfreebsd-amd64 !hurd-i386                     # Linux-specific
 lkl: i386 amd64							      # i386 kb hardware specific
 lphdisk: i386							      # i386 laptop specific
