@@ -370,7 +370,6 @@ welcome2l: alpha amd64 i386 ia64				      # requires VGA hi-ascii characters
 wmacpi: i386 amd64						      # i386 specific
 wmbatppc: powerpc						      # powerpc battery monitor
 %x86info: i386 amd64						      # i386 CPU info prog
-%xfree86-driver-synaptics: !s390				      # Needs xserver-xfree86
 %xmbmon: i386 hurd-i386 amd64 kfreebsd-i386			      # [ANAIS] sys/io.h
 %xmovie: i386							      # [ANAIS] i386 assembly
 xpmumon: powerpc						      # powerpc specific laptop power management
@@ -398,6 +397,7 @@ xpmumon: powerpc						      # powerpc specific laptop power management
 %xserver-xorg-input-penmount: !s390
 %xserver-xorg-input-spaceorb: !s390
 %xserver-xorg-input-summa: !s390
+%xserver-xorg-input-synaptics: !s390
 %xserver-xorg-input-tek4957: !s390
 %xserver-xorg-input-ur98: !s390
 %xserver-xorg-video-apm: !s390
