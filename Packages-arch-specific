@@ -417,7 +417,6 @@ xpmumon: powerpc						      # powerpc specific laptop power management
 %xserver-xorg-video-mach64: !s390
 %xserver-xorg-video-mga: !s390
 %xserver-xorg-video-neomagic: !s390
-%xserver-xorg-video-newport: !s390
 %xserver-xorg-video-nsc: !s390
 %xserver-xorg-video-nv: !s390
 %xserver-xorg-video-openchrome: i386 amd64 kfreebsd-i386 kfreebsd-amd64 lpia # chipset specific
