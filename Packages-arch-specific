@@ -225,6 +225,7 @@ morse: i386							      # i386 specific
 %mozart: !alpha !ia64 !amd64 !kfreebsd-amd64                          # 'who would ever need > 32-bits??'
 %mozart-stdlib: !alpha !ia64 !amd64 !kfreebsd-amd64                   # depends mozart (currently arch:all)
 %mpt-status: !hppa						      # [ANAIS]
+%msrtool: amd64 i386 kfreebsd-i386 kfreebsd-amd64 hurd-i386           # x86-specific
 mv2120-utils: arm armel                                               # ARM specific
 %mwavem: i386							      # IBM Thinkpad DSP/Modem programs
 %mythtv: !hppa !sparc						      # assembly in source
