@@ -296,7 +296,6 @@ qcam: alpha i386 arm armel					      # Attaches through the parallel port
 qprof: ia64 amd64 i386 mips mipsel powerpc			      # Build-Depends on libpfm3-3.2
 quik: powerpc							      # powerpc boot loader
 quik-installer: powerpc						      # powerpc boot loader
-%read-edid: i386 powerpc lpia 					      # ioperm()/iopl(), vm86() etc. i386 specific
 %ree: i386 ia64 amd64 hurd-i386 kfreebsd-i386 kfreebsd-amd64          # i386 specific
 %refit: i386 amd64                                                    # EFI bootloader
 replicator: i386						      # i386 specific
