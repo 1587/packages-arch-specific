@@ -298,7 +298,7 @@ quik: powerpc							      # powerpc boot loader
 quik-installer: powerpc						      # powerpc boot loader
 %read-edid: i386 powerpc lpia 					      # ioperm()/iopl(), vm86() etc. i386 specific
 %ree: i386 ia64 amd64 hurd-i386 kfreebsd-i386 kfreebsd-amd64          # i386 specific
-%refit: i386							      # EFI bootloader
+%refit: i386 amd64                                                    # EFI bootloader
 replicator: i386						      # i386 specific
 retty: i386                                     		      # [ANAIS] i386 assembly
 rio: i386 alpha							      # inb/outb (ab)use for port manipulation
