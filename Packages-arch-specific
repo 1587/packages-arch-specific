@@ -31,7 +31,6 @@ acpidump: i386 ia64 amd64 lpia					      # acpi is i386/ia64 specific
 %alleyoop: i386 amd64 powerpc lpia				      # [ANAIS] - Depends valgrind
 %amd64-libs: i386						      # i386 only
 %apex: arm armeb armel
-%ara: !alpha !arm !armel !hppa !ia64 !m68k !mips !mipsel !s390	      # needs ocamlopt
 %arcboot: mips							      # mips boot loader
 %arcload: mips							      # mips boot loader
 %arcboot-installer: mips					      # arcboot installer
@@ -483,9 +482,6 @@ xview-clients: !ia64 !amd64
 xview-examples: !ia64 !amd64
 olvwm: !ia64 !amd64
 olwm: !ia64 !amd64
-
-# ocaml stuff
-%spamoracle: !alpha !arm !armel !hppa !ia64 !m68k !mips !mipsel !s390 # no ocamlopt, maint says "don't build" See 200566
 
 # isdnutils has one arch: any package (isdnvboxclient), so we can't % it ....
 isdnutils: amd64 alpha arm armel i386 ia64 m68k powerpc sparc mips mipsel lpia
