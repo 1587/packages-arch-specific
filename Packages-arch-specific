@@ -37,6 +37,7 @@ acpidump: i386 ia64 amd64 lpia					      # acpi is i386/ia64 specific
 atari-bootstrap: m68k                                                 # m68k specific
 atitvout: i386							      # i386 specific
 %athcool: i386 kfreebsd-i386					      # Athlon powersave util
+%aufs: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386		# Linux-specific
 %autofs: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386		# Linux-specific
 %autofs5: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386		# Linux-specific
 autorun4linuxcd: i386 amd64					      # MS Windows specific
@@ -299,6 +300,7 @@ qcam: alpha i386 arm armel					      # Attaches through the parallel port
 qprof: ia64 amd64 i386 mips mipsel powerpc			      # Build-Depends on libpfm3-3.2
 quik: powerpc							      # powerpc boot loader
 quik-installer: powerpc						      # powerpc boot loader
+%readahead-list: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386	# readahead(2) is Linux-specific
 %ree: i386 ia64 amd64 hurd-i386 kfreebsd-i386 kfreebsd-amd64          # i386 specific
 %refit: i386 amd64                                                    # EFI bootloader
 replicator: i386						      # i386 specific
