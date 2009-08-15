@@ -513,17 +513,17 @@ cil: i386
 %cmucl: i386
 
 ## Depend: on libgnat-4.3
-%adasockets:          alpha amd64 hppa i386 ia64 kfreebsd-i386 mips mipsel s390 sparc powerpc
-%adacgi:              alpha amd64 hppa i386 ia64 kfreebsd-i386 mips mipsel s390 sparc powerpc
-%asis:                alpha amd64 hppa i386 ia64 kfreebsd-i386 mips mipsel s390 sparc powerpc
-%gnade:               alpha amd64 hppa i386 ia64 kfreebsd-i386 mips mipsel s390 sparc powerpc
-%libaunit:            alpha amd64 hppa i386 ia64 kfreebsd-i386 mips mipsel s390 sparc powerpc
-%libflorist:          alpha amd64 hppa i386 ia64 kfreebsd-i386 mips mipsel s390 sparc powerpc
-%libgtkada2:          alpha amd64 hppa i386 ia64 lpia kfreebsd-i386 mips mipsel s390 sparc powerpc
-%opentoken:           alpha amd64 hppa i386 ia64 kfreebsd-i386 mips mipsel s390 sparc powerpc
-%libtemplates-parser: alpha amd64 hppa i386 ia64 lpia kfreebsd-i386 mips mipsel s390 sparc powerpc
-%libtexttools:        alpha amd64 hppa i386 ia64 kfreebsd-i386 mips mipsel s390 sparc powerpc
-%topal:               alpha amd64 hppa i386 ia64 kfreebsd-i386 mips mipsel s390 sparc powerpc
+%adasockets:          alpha amd64 hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel s390 sparc powerpc
+%adacgi:              alpha amd64 hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel s390 sparc powerpc
+%asis:                alpha amd64 hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel s390 sparc powerpc
+%gnade:               alpha amd64 hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel s390 sparc powerpc
+%libaunit:            alpha amd64 hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel s390 sparc powerpc
+%libflorist:          alpha amd64 hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel s390 sparc powerpc
+%libgtkada2:          alpha amd64 hppa i386 ia64 lpia kfreebsd-amd64 kfreebsd-i386 mips mipsel s390 sparc powerpc
+%opentoken:           alpha amd64 hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel s390 sparc powerpc
+%libtemplates-parser: alpha amd64 hppa i386 ia64 lpia kfreebsd-amd64 kfreebsd-i386 mips mipsel s390 sparc powerpc
+%libtexttools:        alpha amd64 hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel s390 sparc powerpc
+%topal:               alpha amd64 hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel s390 sparc powerpc
 
 
 # Depend on gnat-3.3, gnat-3.4
