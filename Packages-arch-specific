@@ -37,6 +37,8 @@ acpidump: i386 ia64 amd64 lpia					      # acpi is i386/ia64 specific
 atari-bootstrap: m68k                                                 # m68k specific
 atitvout: i386							      # i386 specific
 %athcool: i386 kfreebsd-i386					      # Athlon powersave util
+%autofs: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386		# Linux-specific
+%autofs5: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386		# Linux-specific
 autorun4linuxcd: i386 amd64					      # MS Windows specific
 %avifile: i386 amd64						      # i386 Win32 DLLs needed/executed
 %avrprog: amd64 i386 kfreebsd-amd64 kfreebsd-i386 hurd-i386	      # inb/outb (ab)use
