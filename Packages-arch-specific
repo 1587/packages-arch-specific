@@ -132,6 +132,7 @@ kon2: i386                                                            # Hardcode
 %libextractor-java: amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips mipsel powerpc s390 sparc	# [ANAIS]
 %libfreebasic: i386 kfreebsd-i386 hurd-i386			      # x86 assembly
 %libgcr410: i386 amd64						      # [ANAIS]
+%libibverbs: !kfreebsd-i386 !kfreebsd-amd64 !hurd-i386		# Linux-only
 %libopenspc: i386 kfreebsd-i386					      # i386 assembler
 %libsem: hurd-i386						      # hurd specific
 %libsendmail-milter-perl: !ia64					      # ANAIS
