@@ -168,6 +168,8 @@ lilo-installer: i386 amd64 lpia					      # only useful if you have lilo
 %linux-kernel-di-sparc-2.6: sparc
 %linux-kernel-di-s390: s390
 %linux-kernel-di-s390-2.6: s390
+%kfreebsd-kernel-di-amd64: kfreebsd-amd64
+%kfreebsd-kernel-di-i386: kfreebsd-i386
 %linux-modules-di-alpha-2.6: alpha
 %linux-modules-di-amd64-2.6: amd64
 %linux-modules-di-arm-2.6: arm
