@@ -250,7 +250,7 @@ nvram-wakeup: i386 amd64					      # i386 BIOS specific
 %openoffice.org: !hppa !alpha                                         # 491623
 %oprofile: amd64 i386 ia64 alpha armel hppa powerpc sparc mips mipsel s390 # [ANAIS]
 orpie: !hppa !sparc                                                   # #444494
-%partimage: !ia64 !alpha !amd64					      # 64-bit is br0ken
+%partimage: !ia64 !alpha !amd64 !kfreebsd-amd64			      # 64-bit is br0ken
 %paxtest: i386							      # [ANAIS]
 %pbbuttonsd: powerpc						      # powerpc specific
 %palo-installer: hppa						      # Installer for HPPA boot-loader
@@ -261,7 +261,7 @@ orpie: !hppa !sparc                                                   # #444494
 %partman-prep: powerpc						      # Partition prep for powerpc
 %partman-efi: amd64 i386 ia64					      # Partitioner for ia64 boot-loader
 %pine: nowhere							      # [ANAIS] license does not allow modified bin distrib
-%ppmd: !amd64 !alpha !ia64                                            # 32-bit only
+%ppmd: !amd64 !alpha !ia64 !kfreebsd-amd64                            # 32-bit only
 %prep-installer: powerpc					      # powerpc boot installer
 gtkpbbuttons: powerpc						      # powerpc specific
 pbuilder-uml: i386 amd64					      # depends on user-mode-linux
@@ -316,7 +316,7 @@ rio: i386 alpha							      # inb/outb (ab)use for port manipulation
 %sauerbraten: !powerpc						      # does not work, #432666
 sbm: i386							      # i386 boot loader
 %scratchbox2: i386 amd64 powerpc ia64				      # ANAIS
-%scsh-0.6: !alpha !amd64 !ia64                  		      # [ANAIS]
+%scsh-0.6: !alpha !amd64 !ia64 !kfreebsd-amd64			      # [ANAIS]
 %sdl-stretch: i386 kfreebsd-i386 hurd-i386			      # [ANAIS]
 set6x86: i386 kfreebsd-i386                                           # i386 specific
 sibyl: mips mipsel						      # mips, mipsel boot loader
@@ -469,21 +469,16 @@ zsnes: i386							      # Mostly written in i386 assembler
 # xorg stuff
 %xserver-xorg-input-vmmouse: i386 amd64          # VMWare-specific
 
-# xviewg and friends - no ia64 support upstream
-xvmount: !ia64 !amd64
-workman: !ia64 !amd64
-circlepack: !ia64 !amd64
-treetool: !ia64 !amd64
-imaze-xview: !ia64 !amd64
-%imaze: !ia64 !amd64
-xjove: !ia64 !amd64
-%xview: !ia64							     # [ANAIS] see #125391
-xviewg: !ia64 !amd64
-xviewg-dev: !ia64 !amd64
-xview-clients: !ia64 !amd64
-xview-examples: !ia64 !amd64
-olvwm: !ia64 !amd64
-olwm: !ia64 !amd64
+# xviewg and friends - no 64 proper bit support upstream, but alpha seems to
+# work for some reason?
+xvmount: !ia64 !amd64 !kfreebsd-amd64
+workman: !ia64 !amd64 !kfreebsd-amd64
+circlepack: !ia64 !amd64 !kfreebsd-amd64
+treetool: !ia64 !amd64 !kfreebsd-amd64
+imaze-xview: !ia64 !amd64 !kfreebsd-amd64
+%imaze: !ia64 !amd64 !kfreebsd-amd64
+xjove: !ia64 !amd64 !kfreebsd-amd64
+%xview: !ia64 !amd64 !kfreebsd-amd64		     # [ANAIS] see #125391
 
 # isdnutils has one arch: any package (isdnvboxclient), so we can't % it ....
 isdnutils: amd64 alpha arm armel i386 ia64 m68k powerpc sparc mips mipsel lpia
