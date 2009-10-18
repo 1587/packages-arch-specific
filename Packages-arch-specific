@@ -215,7 +215,6 @@ mknbi: i386							      # i386 specific
 mkrboot: i386                                                         # i386 boot loader utilities
 %mkelfimage: i386 amd64 ia64					      # [ANAIS]
 %mkvmlinuz: powerpc						      # Powerpc kernel from open firmware.
-mlton: amd64 i386 hppa powerpc sparc				      # Self-hosting ML compiler
 mocka: i386							      # i386 only compiler
 %mol: powerpc							      # Mac-on-linux; requires a powerpc.
 %mol-drivers-linux: powerpc					      # Mac-on-linux; requires a powerpc
