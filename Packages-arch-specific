@@ -38,7 +38,6 @@ atari-bootstrap: m68k                                                 # m68k spe
 atitvout: i386							      # i386 specific
 %athcool: i386 kfreebsd-i386					      # Athlon powersave util
 autorun4linuxcd: i386 amd64					      # MS Windows specific
-%avifile: i386 amd64						      # i386 Win32 DLLs needed/executed
 %avrprog: amd64 i386 kfreebsd-amd64 kfreebsd-i386 hurd-i386	      # inb/outb (ab)use
 %baycomepp: i386 alpha amd64					      # [ANAIS]
 bluez-pcmcia-support: !s390					      # [ANAIS] depends: pcmcia-cs
