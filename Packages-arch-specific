@@ -40,6 +40,7 @@ atitvout: i386							      # i386 specific
 autorun4linuxcd: i386 amd64					      # MS Windows specific
 %avrprog: amd64 i386 kfreebsd-amd64 kfreebsd-i386 hurd-i386	      # inb/outb (ab)use
 %baycomepp: i386 alpha amd64					      # [ANAIS]
+%bidentd: !hurd-i386 !kfreebsd-i386 !kfreebsd-amd64          # Linux specific
 bluez-pcmcia-support: !s390					      # [ANAIS] depends: pcmcia-cs
 bmconf: amd64 i386 kfreebsd-amd64 kfreebsd-i386 hurd-i386             # i386 boot loader
 %brdesktop-flavours: amd64 i386 powerpc				      # limited BrDesktop architectures
