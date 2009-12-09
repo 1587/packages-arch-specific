@@ -273,6 +273,7 @@ pearpc: i386 amd64 hurd-i386					      # [ANAIS]
 penguin: m68k                                                         # m68k boot loader
 %pfmon: ia64							      # ia64 specific
 pforth: arm armel i386 m68k powerpc s390 sparc hurd-i386 hppa kfreebsd-i386 # requires explicit porting
+%pidgin-skype: i386 amd64						# [ANAIS] Requires non-free client
 %plee-the-bear: !alpha !arm !armel !powerpc !s390                     # [ANAIS]
 %pmud: powerpc							      # powerpc specific
 pnputils: i386 amd64						      # x86 specific, needs a PnP-BIOS
