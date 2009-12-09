@@ -565,6 +565,7 @@ quantlib-ruby: !m68k
 %sepolgen: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %setools: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %udev: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
+%vmpk: !hurd-i386 !kfreebsd-amd64 !kfreebsd-i386		# needs RtMidi/real ALSA, see #557899
 %yaird: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 
 # kfreebsd
