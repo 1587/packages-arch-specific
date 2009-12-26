@@ -34,6 +34,7 @@ acpidump: i386 ia64 amd64 lpia					      # acpi is i386/ia64 specific
 %arcboot: mips							      # mips boot loader
 %arcload: mips							      # mips boot loader
 %arcboot-installer: mips					      # arcboot installer
+%armada-backlight: amd64 i386 kfreebsd-amd64 kfreebsd-i386 hurd-i386 # hardware specific
 atari-bootstrap: m68k                                                 # m68k specific
 atitvout: i386							      # i386 specific
 %athcool: i386 kfreebsd-i386					      # Athlon powersave util
