@@ -551,6 +551,7 @@ quantlib-ruby: !m68k
 %autofs5: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %alsa-lib: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %checkpolicy: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
+%libcap-ng: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %klibc: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %libibverbs: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %libselinux: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
