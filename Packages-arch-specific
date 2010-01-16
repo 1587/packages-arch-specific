@@ -81,6 +81,7 @@ fdflush: alpha i386                                                   # i386/alp
 %flashrom: amd64 i386 kfreebsd-amd64 kfreebsd-i386 alpha hurd-i386    # ANAIS
 %fnfx: i386							      # toshiba laptop specific
 %framewave: amd64 i386						      # ANAIS
+%fswebcam: !kfreebsd-amd64 !kfreebsd-i386			      # Linux-specific (v4l)
 %gatos: i386							      # no upstream !i386 support
 %gcc-3.3: amd64 i386 lpia powerpc				      # only libstdc++5 is built
 %gcc-3.4: !armel !kfreebsd-amd64				      # too old
