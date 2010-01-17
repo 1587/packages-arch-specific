@@ -497,6 +497,28 @@ pppdcapiplugin: amd64 alpha arm armel i386 ia64 m68k powerpc sparc mips mipsel l
 isdneurofile: amd64 alpha arm armel i386 ia64 m68k powerpc sparc mips mipsel lpia
 %capi4hylafax: amd64 alpha arm armel i386 ia64 m68k powerpc sparc mips mipsel lpia
 
+# infiniband suite
+%dapl: i386 ia64 amd64 powerpc
+%howto: i386 ia64 amd64 powerpc
+%ibsim: i386 ia64 amd64 powerpc
+%ibutils: i386 ia64 amd64 powerpc
+%infiniband-diags: i386 ia64 amd64 powerpc
+%libibcm: i386 ia64 amd64 powerpc
+%libibcommon: i386 ia64 amd64 powerpc
+%libibmad: i386 ia64 amd64 powerpc
+%libibumad: i386 ia64 amd64 powerpc
+%libnes: i386 ia64 amd64 powerpc
+%libsdp: i386 ia64 amd64 powerpc
+%mstflint: i386 ia64 amd64 powerpc
+%ofed: i386 ia64 amd64 powerpc
+%opensm: i386 ia64 amd64 powerpc
+%perftest: i386 ia64 amd64 powerpc
+%qlvnictools: i386 ia64 amd64 powerpc
+%rds-tools: i386 ia64 amd64 powerpc
+%sdpnetstat: i386 ia64 amd64 powerpc
+%srptools: i386 ia64 amd64 powerpc
+%tvflash: i386 ia64 amd64 powerpc
+
 ## Depend: on svgalib
 bmv: amd64 i386
 dvisvga: amd64 i386
