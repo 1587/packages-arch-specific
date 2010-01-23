@@ -572,6 +572,7 @@ quantlib-ruby: !m68k
 %autofs: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %autofs5: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %alsa-lib: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
+%ccstools: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %checkpolicy: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %fswebcam: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386    # v4l
 %libcap-ng: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
