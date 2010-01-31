@@ -587,6 +587,7 @@ quantlib-ruby: !m68k
 %linux-latest-2.6: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %lldpd: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %module-init-tools: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
+%mdadm: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %policycoreutils: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %readahead-list: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386	# readahead(2) is Linux-specific
 %sepolgen: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
