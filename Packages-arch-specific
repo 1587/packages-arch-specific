@@ -378,6 +378,7 @@ wmacpi: i386 amd64						      # i386 specific
 wmbatppc: powerpc						      # powerpc battery monitor
 %x86info: i386 amd64 kfreebsd-i386 kfreebsd-amd64		      # i386 CPU info prog
 %xf86-video-glamo: amd64 armel i386				      # chipset specific
+%xf86-video-omapfb: armel					      # chipset specific
 %xmbmon: i386 hurd-i386 amd64 kfreebsd-i386 kfreebsd-amd64	      # [ANAIS] sys/io.h
 %xmovie: i386							      # [ANAIS] i386 assembly
 xpmumon: powerpc						      # powerpc specific laptop power management
