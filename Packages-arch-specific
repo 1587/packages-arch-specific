@@ -28,7 +28,7 @@ acpid: i386 ia64 amd64 lpia					      # acpi is i386/ia64 specific
 acpidump: i386 ia64 amd64 lpia					      # acpi is i386/ia64 specific
 %acpitail: amd64 i386 ia64 lpia					      # acpi is i386/ia64 specific
 %afbinit: sparc							      # Sparc gfx card firmware loader
-%alleyoop: i386 amd64 powerpc lpia				      # [ANAIS] - Depends valgrind
+%alleyoop: i386 amd64 powerpc lpia armel			      # [ANAIS] - Depends valgrind
 %amd64-libs: i386						      # i386 only
 %apex: arm armeb armel
 %arcboot: mips							      # mips boot loader
@@ -357,7 +357,7 @@ toshutils: i386 amd64                                                 # x86 spec
 %usplash: amd64 armel i386 lpia powerpc sparc			      # ANAIS
 %uswsusp: i386 amd64 powerpc
 v86d: amd64 i386						      # x86 specific
-%valgrind: i386 amd64 powerpc lpia				      # Needs ported (asm, arch knwldge)
+%valgrind: i386 amd64 powerpc lpia armel			      # Needs ported (asm, arch knwldge)
 %vbetool: !hppa !ia64 !m68k !mips !mipsel !powerpc !sh4 !sparc	      # sys/io.h
 %vcs-tree: i386 sparc powerpc mips mipsel alpha amd64		      # [ANAIS]
 %vegastrike: !m68k						      # requested by Mike Furr <mfurr@debian.org>, see 207578
