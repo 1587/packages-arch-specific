@@ -531,22 +531,37 @@ zgv: amd64 i386
 cil: i386
 %cmucl: i386
 
-## Depend: on libgnat-4.3
-%adasockets:          alpha amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel s390 sparc powerpc
-%adacgi:              alpha amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel s390 sparc powerpc
-%asis:                alpha amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel s390 sparc powerpc
-%gnade:               alpha amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel s390 sparc powerpc
-%libaunit:            alpha amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel s390 sparc powerpc
-%libflorist:          alpha amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel s390 sparc powerpc
-%libgtkada2:          alpha amd64 armel hppa i386 ia64 lpia kfreebsd-amd64 kfreebsd-i386 mips mipsel s390 sparc powerpc
-%opentoken:           alpha amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel s390 sparc powerpc
-%libtemplates-parser: alpha amd64 armel hppa i386 ia64 lpia kfreebsd-amd64 kfreebsd-i386 mips mipsel s390 sparc powerpc
-%libtexttools:        alpha amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel s390 sparc powerpc
-%topal:               alpha amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel s390 sparc powerpc
+## Depend: on libgnat-4.4
+%adabrowse:           !alpha !mips
+%adacgi:              !alpha
+%adacontrol:          !alpha !mips
+%adasockets:          !alpha
+%ahven:               !alpha
+%apq:                 !alpha
+%apq-postgresql:      !alpha
+%asis:                !alpha
+%gnade:               !alpha
+%gnat-gps             !alpha !mips
+%gprbuild:            !alpha
+%libaunit:            !alpha
+%libalog:             !alpha
+%libaws:              !alpha !mips
+%libflorist:          !alpha
+%libgmpada:           !alpha
+%libgtkada2:          !alpha
+%liblog4ada:          !alpha
+%libtemplates-parser: !alpha !mips
+%libtexttools:        !alpha
+%libxmlada:           !alpha
+%libxmlezout:         !alpha
+%music123:            !alpha
+%opentoken:           !alpha
+%pcscada:             !alpha
+%polyorb:             !alpha !mips
+%topal:               !alpha
 
 
 # Depend on gnat-3.3, gnat-3.4
-%music123: !arm !m68k
 ghdl: !m68k
 
 # IEEE-1394 Firewire
