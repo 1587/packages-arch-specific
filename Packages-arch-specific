@@ -231,6 +231,7 @@ mv2120-utils: arm armel                                               # ARM spec
 ndisgtk: i386 amd64 lpia                                              # depends on ndiswrapper
 %ndiswrapper: i386 amd64 lpia                                         # Windows DLL loader
 %nel: i386 amd64						      # [ANAIS] 0.6.0 should get more portable they say
+%newlib: i386 powerpc ppc64
 %nictools-nopci: i386						      # [?] ISA nictools
 %nictools-pci: i386 arm armel alpha				      # [ANAIS]
 nikwi: alpha amd64 arm armel kfreebsd-i386 kfreebsd-amd64 hurd-i386 ia64 mipsel # Only little endian support
