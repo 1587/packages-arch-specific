@@ -593,6 +593,7 @@ quantlib-ruby: !m68k
 %ccstools: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %checkpolicy: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %readahead-fedora: !hurd-i386 !kfreebsd-i386 !kfreebsd-amd64 !hurd-i386
+%ethtool !hurd-i386 !kfreebsd-i386 !kfreebsd-amd64 !hurd-i386
 %fswebcam: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386    # v4l
 %libcap-ng: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %klibc: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
