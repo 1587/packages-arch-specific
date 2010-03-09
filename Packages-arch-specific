@@ -283,7 +283,7 @@ pnputils: i386 amd64						      # x86 specific, needs a PnP-BIOS
 %powerprefs: powerpc						      # powerpc specific
 powerpc-ibm-utils: powerpc					      # powerpc specific
 powerpc-utils: powerpc						      # powerpc specific
-%prctl: hppa ia64 alpha						      # ANAIS based on syscall availability
+%prctl: hppa ia64 alpha	powerpc					      # ANAIS based on syscall availability
 %prelink: !hppa							      # No upstream support
 primaxscan: i386 kfreebsd-i386 amd64 kfreebsd-amd64		      # [?]
 %proll: sparc							      # Build-deps sparc-utils
