@@ -24,7 +24,6 @@ aboot: alpha							      # alpha boot loader
 %aboot-installer: alpha					              # alpha boot loader installer	
 acpi: i386 ia64	amd64 lpia					      # acpi is i386/ia64 specific
 %acpi-support: i386 amd64 ia64 lpia				      # [ANAIS]
-acpid: i386 ia64 amd64 lpia					      # acpi is i386/ia64 specific
 acpidump: i386 ia64 amd64 lpia					      # acpi is i386/ia64 specific
 %acpitail: amd64 i386 ia64 lpia					      # acpi is i386/ia64 specific
 %afbinit: sparc							      # Sparc gfx card firmware loader
@@ -587,6 +586,7 @@ quantlib-ruby: !m68k
 %clisp: !m68k							# "too buggy, no one willing to fix"
 
 # linux specific
+%acpid: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %aufs: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %autofs: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %autofs5: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
@@ -598,6 +598,7 @@ quantlib-ruby: !m68k
 %ethtool: !kfreebsd-i386 !kfreebsd-amd64 !hurd-i386
 %fswebcam: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386    # v4l
 %libcap-ng: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
+%libnss-gw-name: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %klibc: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %libibverbs: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %libselinux: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
