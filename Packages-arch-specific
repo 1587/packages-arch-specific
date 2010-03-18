@@ -545,7 +545,7 @@ cil: i386
 %apq-postgresql:      !alpha
 %asis:                !alpha
 %gnade:               !alpha
-%gnat-gps             !alpha !mips
+%gnat-gps:            !alpha !mips
 %gprbuild:            !alpha
 %libaunit:            !alpha
 %libalog:             !alpha
