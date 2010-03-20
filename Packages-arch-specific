@@ -355,6 +355,7 @@ toshutils: i386 amd64                                                 # x86 spec
 %tuxonice-userui: i386 ia64 powerpc ppc64 amd64                       # [ANAIS]
 %tvtime: i386 amd64 lpia					      # i386 (wine) specific
 %u++: i386 ia64 amd64						      # per rcbilson@plg.uwaterloo.ca
+%uclibc: none							      # Currently no arch specific package on any debian arch
 %umlrun: i386							      # Depends on user-mod-linux
 %umview: i386 amd64 powerpc ppc64                		      # [ANAIS] needs per-arch syscall tables
 %user-mode-linux: i386 amd64					      # [?] ANAIS
