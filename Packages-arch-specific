@@ -268,7 +268,7 @@ gtkpbbuttons: powerpc						      # powerpc specific
 pbuilder-uml: i386 amd64					      # depends on user-mode-linux
 pciutils: !m68k                                                       # m68k doesn't do PCI; others?
 %pcmcia-cs: !s390						      # everywhere else has bridges.
-pearpc: i386 amd64 hurd-i386					      # [ANAIS]
+pearpc: i386 amd64 kfreebsd-amd64 kfreebsd-i386 hurd-i386	      # [ANAIS]
 penguin: m68k                                                         # m68k boot loader
 %pfmon: ia64							      # ia64 specific
 pforth: arm armel i386 m68k powerpc s390 sparc hurd-i386 hppa kfreebsd-i386 # requires explicit porting
