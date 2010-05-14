@@ -326,6 +326,7 @@ sibyl: mips mipsel						      # mips, mipsel boot loader
 sibyl-installer: mips mipsel					      # mips, mipsel boot loader
 silo: sparc							      # sparc lilo
 %silo-installer: sparc						      # sparc lilo
+%slicer: !alpha !armel !mips !mipsel
 %smlnj: amd64 i386 powerpc                                            # i386 specific
 %sparc-utils: sparc                                                   # sparc specific
 %spicctrl: i386							      # For Sony VAIO laptops
