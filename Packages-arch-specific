@@ -307,7 +307,7 @@ retty: i386                                     		      # [ANAIS] i386 assembly
 rio: i386 alpha							      # inb/outb (ab)use for port manipulation
 %rootstrap: i386 amd64						      # Depends on user-mode-linux
 %rovclock: !hppa !m68k !mips !mipsel !powerpc !sh4 !sparc	      # sys/io.h
-%rtai: i386 powerpc mips mipsel arm				      # [ANAIS]
+%rtai: amd64 i386 powerpc armel				  	      # [ANAIS]
 %rxtx: !hppa !ia64 !m68k !mips !mipsel !powerpc !sh4 !sparc	      # sys/io.h
 %s390-dasd: s390						      # s390 hard disk configurator
 %s390-netdevice: s390						      # s390 network configurator
