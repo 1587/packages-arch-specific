@@ -620,6 +620,7 @@ quantlib-ruby: !m68k
 %readahead-list: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386	# readahead(2) is Linux-specific
 %sepolgen: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %setools: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
+%tomoyo-tools: !hurd-i386 !kfreebsd-amd64 !kfreebsd-i386
 %udev: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %vmpk: !hurd-i386 !kfreebsd-amd64 !kfreebsd-i386		# needs RtMidi/real ALSA, see #557899
 %yaird: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
