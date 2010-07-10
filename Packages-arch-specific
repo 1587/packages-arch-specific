@@ -310,7 +310,7 @@ rio: i386 alpha							      # inb/outb (ab)use for port manipulation
 %rootstrap: i386 amd64						      # Depends on user-mode-linux
 %rovclock: !hppa !m68k !mips !mipsel !powerpc !sh4 !sparc	      # sys/io.h
 %rtai: amd64 i386 powerpc armel				  	      # [ANAIS]
-%rxtx: !hppa !ia64 !m68k !mips !mipsel !powerpc !sh4 !sparc	      # sys/io.h
+%rxtx: !hppa !m68k !mips !mipsel !powerpc !sh4 !sparc !sparc64	      # sys/io.h
 %s390-dasd: s390						      # s390 hard disk configurator
 %s390-netdevice: s390						      # s390 network configurator
 %s390-sysconfig-writer: s390 s390x				      # s390 specific
