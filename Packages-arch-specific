@@ -602,6 +602,11 @@ quantlib-ruby: !m68k
 %ethtool: !kfreebsd-i386 !kfreebsd-amd64 !hurd-i386
 %fswebcam: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386    # v4l
 %fusecompress: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
+%gpe-conf: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
+%gpe-announce: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
+%gpe-bluetooth: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
+%gpe-calendar: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
+%gpe-mininet: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %libcap-ng: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %libnss-gw-name: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %inotifyx: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
@@ -611,6 +616,7 @@ quantlib-ruby: !m68k
 %libselinux: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %libsemanage: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %libsepol: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
+%libsoundgen: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %linux-2.6: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %linux-modules-contrib-2.6: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %linux-latest-2.6: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
