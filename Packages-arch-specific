@@ -601,8 +601,11 @@ quantlib-ruby: !m68k
 %readahead-fedora: !kfreebsd-i386 !kfreebsd-amd64 !hurd-i386
 %ethtool: !kfreebsd-i386 !kfreebsd-amd64 !hurd-i386
 %fswebcam: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386    # v4l
+%fusecompress: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %libcap-ng: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %libnss-gw-name: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
+%inotifyx: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
+%iscsitarget: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %klibc: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %libibverbs: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %libselinux: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
@@ -617,10 +620,12 @@ quantlib-ruby: !m68k
 %mdadm: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %me-tv: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %mz: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
+%open-iscsi: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %policycoreutils: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %readahead-list: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386	# readahead(2) is Linux-specific
 %sepolgen: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %setools: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
+%systemtap: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %tomoyo-tools: !hurd-i386 !kfreebsd-amd64 !kfreebsd-i386
 %udev: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %vmpk: !hurd-i386 !kfreebsd-amd64 !kfreebsd-i386		# needs RtMidi/real ALSA, see #557899
