@@ -254,7 +254,6 @@ nvram-wakeup: i386 amd64					      # i386 BIOS specific
 %openhackware: powerpc						      # per Guillem Jover
 %oprofile: amd64 i386 ia64 alpha armel hppa powerpc sparc mips mipsel s390 # [ANAIS]
 orpie: !hppa !sparc                                                   # #444494
-%partimage: !ia64 !alpha !amd64 !kfreebsd-amd64			      # 64-bit is br0ken
 %paxtest: i386							      # [ANAIS]
 %pbbuttonsd: powerpc						      # powerpc specific
 %palo-installer: hppa						      # Installer for HPPA boot-loader
