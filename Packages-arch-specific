@@ -214,7 +214,7 @@ memtest86: i386 amd64 lpia kfreebsd-i386 kfreebsd-amd64 hurd-i386     # i386 mem
 mindi: i386 amd64						      # i386 boot disk creator
 %mindi-busybox: i386 amd64                                            # [ANAIS] depends mindi
 %mit-scheme: i386						      # Circular self-build-depends (requires itself to build itself)
-mknbi: i386							      # i386 specific
+mknbi: amd64 i386 kfreebsd-amd64 kfreebsd-i386			      # i386 specific
 mkrboot: i386                                                         # i386 boot loader utilities
 %mkelfimage: i386 amd64 ia64					      # [ANAIS]
 %mkvmlinuz: powerpc						      # Powerpc kernel from open firmware.
