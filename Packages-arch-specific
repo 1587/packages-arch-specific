@@ -396,7 +396,6 @@ xpmumon: powerpc						      # powerpc specific laptop power management
 %xserver-xorg-input-dynapro: !s390
 %xserver-xorg-input-elo2300: !s390
 %xserver-xorg-input-elographics: !s390
-%xserver-xorg-input-evdev: !s390
 %xserver-xorg-input-fpit: !s390
 %xserver-xorg-input-hyperpen: !s390
 %xserver-xorg-input-jamstudio: !s390
