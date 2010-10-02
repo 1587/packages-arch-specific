@@ -124,6 +124,7 @@ kon2: i386                                                            # Hardcode
 %kvm: i386 amd64						      # not supported on others
 %ia32-libs: amd64 ia64						      # ia32 compat libs for amd64,ia64
 %ia32-libs-gtk: amd64 ia64					      # ia32 compat libs for amd64,ia64
+%ia32-libs-core: ia64						      # ia32 compat libs, ia64-only bundle
 %lcd4linux: amd64 armel i386					      # <sys/io.h>
 %lcdproc: !s390							      # this hardware cannot be attached
 %ldc: !s390							      # needs porting
