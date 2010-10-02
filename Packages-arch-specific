@@ -126,6 +126,7 @@ kon2: i386                                                            # Hardcode
 %ia32-libs-gtk: amd64 ia64					      # ia32 compat libs for amd64,ia64
 %lcd4linux: amd64 armel i386					      # <sys/io.h>
 %lcdproc: !s390							      # this hardware cannot be attached
+%ldc: !s390							      # needs porting
 %ledstats: i386							      # [?] ANAIS, <sys/io.h>
 %libacpi: amd64 i386 ia64 lpia					      # acpi is i386/ia64 specific
 %libdbd-informix-perl: i386                                           # ANAIS
