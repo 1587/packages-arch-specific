@@ -242,7 +242,6 @@ ndisgtk: i386 amd64 lpia                                              # depends 
 nikwi: alpha amd64 arm armel kfreebsd-i386 kfreebsd-amd64 hurd-i386 ia64 mipsel # Only little endian support
 nvidia-xconfig: i386 amd64 ia64					      # i386 specific, but match what's in the archive
 %gpart: i386 hurd-i386 ia64 alpha arm armel mipsel amd64	      # little endian specific
-%nsis: i386 amd64						      # [ANAIS]
 %nslu2-utils: arm armeb armel					      # ARM specific
 nspluginwrapper: amd64						      # amd64 specific
 %ntp: !hurd-i386						# does not have the needed system calls.
