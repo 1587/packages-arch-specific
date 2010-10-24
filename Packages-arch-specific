@@ -443,7 +443,6 @@ xpmumon: powerpc						      # powerpc specific laptop power management
 %xserver-xorg-video-sis: !s390
 %xserver-xorg-video-sisusb: !s390
 %xserver-xorg-video-geode: i386 lpia				      # i386 specific
-%xserver-xorg-video-intel: amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 lpia # intel platform specific
 %xserver-xorg-video-newport: mips				      # mips specific
 %xserver-xorg-video-sunbw2: sparc				      # sparc specific
 %xserver-xorg-video-suncg14: sparc				      # sparc specific
