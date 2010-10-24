@@ -317,7 +317,6 @@ rio: i386 alpha							      # inb/outb (ab)use for port manipulation
 %s390-tools: s390						      # s390 specific utilities
 %s3switch: i386							      # i386 laptop gfx card prog
 %salinfo: ia64							      # ia64 firmware monitor/decoder
-%sbcl: i386 powerpc alpha sparc mips mipsel amd64		      # cmucl fork (asm, needs port)
 %sauerbraten: !powerpc						      # does not work, #432666
 sbm: i386							      # i386 boot loader
 %scratchbox2: i386 amd64 powerpc ia64				      # ANAIS
