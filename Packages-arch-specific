@@ -200,7 +200,6 @@ loadlin: i386 amd64						      # i386 boot loader
 longrun: i386							      # i386 Crusoe specific
 ltrace: i386 m68k arm armel powerpc s390 sparc ia64 amd64 lpia        # [p] needs ported
 %lush: !ia64							      # ANAIS, #267494
-%lustre:  i386 powerpc amd64 ia64				      # ANAIS, no upstream support
 %mac-fdisk: m68k powerpc 					      # Apple Mac fdisk
 %m68kboot: m68k							      # m68k boot loader
 %makedumpfile: amd64 i386 ia64 powerpc				      # not yet ported to other platforms
