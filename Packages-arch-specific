@@ -27,7 +27,6 @@ acpi: i386 ia64	amd64 lpia					      # acpi is i386/ia64 specific
 acpidump: i386 ia64 amd64 lpia					      # acpi is i386/ia64 specific
 %acpitail: amd64 i386 ia64 lpia					      # acpi is i386/ia64 specific
 %afbinit: sparc							      # Sparc gfx card firmware loader
-%alleyoop: i386 amd64 powerpc lpia armel			      # [ANAIS] - Depends valgrind
 %amd64-libs: i386						      # i386 only
 %apex: arm armeb armel
 %arcboot: mips							      # mips boot loader
