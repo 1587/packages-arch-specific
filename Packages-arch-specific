@@ -88,6 +88,7 @@ fdflush: alpha i386                                                   # i386/alp
 %glide: i386 alpha ia64 amd64					      # i386+alpha+... specific
 %gmod: i386                                                           # i386 specific
 %gpmudmon-applet: powerpc					      # PMUD is powerpc APM
+%gnome-mount: !linux-any                                              # superseded on linux by gvfs/g-d-u (#591429)
 %gnome-ppp: !armel					# no working getcontext()
 %gnu-efi: amd64 i386 ia64 lpia kfreebsd-amd64			      # EFI specific
 %gnumach: hurd-i386 i386 kfreebsd-i386				      # hurd kernel
