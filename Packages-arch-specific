@@ -53,7 +53,6 @@ cmucl: i386							      # Yet to be ported to other arches
 cpushare: amd64 i386 ppc64 powerpc				      # [ANAIS]
 crash: amd64 i386 ia64 alpha powerpc				      # not yet ported to other platforms
 %ctypes: !m68k							      # ROM
-%cpuburn: i386 amd64 kfreebsd-i386 kfreebsd-amd64 hurd-i386	      # i386 stress tester
 %dfsbuild: alpha amd64 i386 powerpc				      # [ANAIS]
 %digitools: i386						      # [ANAIS]
 %dmidecode: i386 ia64 amd64 lpia kfreebsd-i386 kfreebsd-amd64	      # [ANAIS]
