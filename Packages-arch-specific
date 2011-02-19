@@ -292,10 +292,7 @@ pstack: i386							      # needs knowledge of stack layout
 %python-kinterbasdb: i386					      # depends on firebird
 %purelibc: i386 amd64 powerpc ppc64				      # [ANAIS] no upstream support
 %qcontrol: arm armel						      # arm hardware specific
-%qemu: amd64 arm armel i386 mips mipsel kfreebsd-amd64 kfreebsd-i386 powerpc sparc # [ANAIS] needs porting
 %qemu-kvm: amd64 i386
-%qtemu: amd64 arm armel i386 mips mipsel kfreebsd-amd64 kfreebsd-i386 powerpc sparc # depends on qemu
-%aqemu: amd64 arm armel i386 mips mipsel kfreebsd-amd64 kfreebsd-i386 powerpc sparc # depends on qemu
 q-tools: ia64							      # ia64 perf utils
 qcam: alpha i386 arm armel					      # Attaches through the parallel port
 qprof: ia64 amd64 i386 mips mipsel powerpc			      # Build-Depends on libpfm3-3.2
