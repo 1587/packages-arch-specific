@@ -568,9 +568,6 @@ ghdl: !m68k
 coriander: !m68k
 dvgrab: !m68k
 
-# dietlibc
-%dietlibc: alpha amd64 arm armel hppa i386 ia64 mips mipsel powerpc sparc s390    # ANAIS
-
 # fp-compiler stuff
 %fpc: arm armel i386 sparc powerpc amd64			      # self-hosting pascal compiler
 
