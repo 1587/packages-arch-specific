@@ -210,7 +210,6 @@ memtest86: i386 amd64 lpia kfreebsd-i386 kfreebsd-amd64 hurd-i386     # i386 mem
 %memtest86+: i386 amd64 lpia kfreebsd-i386 kfreebsd-amd64 hurd-i386   # i386 memory tester (bypasses OS entirely)
 %mga-vid: !m68k							      # [ANAIS]
 %micro-evtd: arm armel						      # driver for the micro controller of a arm-based NAS
-%mig: hurd-i386							      # hurd cross compiler
 mindi: i386 amd64						      # i386 boot disk creator
 %mindi-busybox: i386 amd64                                            # [ANAIS] depends mindi
 %mit-scheme: i386						      # Circular self-build-depends (requires itself to build itself)
