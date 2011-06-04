@@ -185,7 +185,6 @@ lilo-installer: i386 amd64 lpia					      # only useful if you have lilo
 %linux-modules-di-s390-2.6: s390
 %linux-modules-di-sparc-2.6: sparc
 %linux-wlan-ng: amd64 i386 powerpc arm armel alpha hppa lpia	      # ANAIS [?]
-%lisaac: !alpha !amd64 !ia64 !kfreebsd-amd64                          # no 64-bit support
 lkl: i386 kfreebsd-i386						      # i386 kb hardware specific
 %llvm: !ia64 !mips !mipsel
 %llvm-gcc-4.2: i386 amd64
