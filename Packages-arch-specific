@@ -615,12 +615,10 @@ quantlib-ruby: !m68k
 %yaird: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 
 # kfreebsd
-%kfreebsd-7: kfreebsd-i386 kfreebsd-amd64			      # freebsd kernel 7.x
-%kfreebsd-8: kfreebsd-i386 kfreebsd-amd64			      # freebsd kernel 8.x
+%kfreebsd-8: kfreebsd-i386 kfreebsd-amd64 i386 amd64 mipsel hurd-i386	      # freebsd kernel 8.x
+%kfreebsd-9: kfreebsd-i386 kfreebsd-amd64 i386 amd64 mipsel hurd-i386	      # freebsd kernel 8.x
 %kfreebsd-kernel-headers: kfreebsd-amd64 kfreebsd-i386
-%freebsd-libs: kfreebsd-amd64 kfreebsd-i386
 %freebsd-utils: kfreebsd-amd64 kfreebsd-i386
-%libfreebsd: kfreebsd-amd64 kfreebsd-i386
 
 ####################################################################################
 # Contrib and non-free
