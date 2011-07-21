@@ -96,7 +96,7 @@ fdflush: alpha i386                                                   # i386/alp
 gprolog: i386 mips mipsel sparc alpha powerpc amd64		      # from source
 %grub: i386 hurd-i386 amd64 lpia kfreebsd-i386 kfreebsd-amd64         # i386 boot loader
 %grub2: i386 kfreebsd-i386 hurd-i386 amd64 kfreebsd-amd64 powerpc ppc64 lpia sparc mipsel # bootloader
-grub-installer: i386 amd64 hurd-i386 lpia powerpc kfreebsd-i386 kfreebsd-amd64 # only useful if you have grub
+grub-installer: i386 amd64 hurd-i386 lpia powerpc kfreebsd-i386 kfreebsd-amd64 mipsel # only useful if you have grub
 %gtkpbbuttons: powerpc						      # powerpc specific
 guml: i386 amd64						      # depends on user-mode-linux
 %haskell-debian: amd64 i386 kfreebsd-amd64 kfreebsd-i386 powerpc      # Requires threaded Haskell runtime
