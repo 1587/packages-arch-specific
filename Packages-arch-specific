@@ -78,7 +78,6 @@ fdflush: alpha i386                                                   # i386/alp
 %fnfx: i386							      # toshiba laptop specific
 %framewave: amd64 i386						      # ANAIS
 %gatos: i386							      # no upstream !i386 support
-%gcc-3.3: amd64 i386 lpia powerpc				      # only libstdc++5 is built
 %gcc-3.4: !armel !kfreebsd-amd64				      # too old
 %geordi: amd64 i386						      # x86 assembly
 %ggcov: i386 kfreebsd-i386 hurd-i386				      # [ANAIS] endianness issues, etc.
