@@ -112,7 +112,6 @@ kon2: i386                                                            # Hardcode
 %ldc: !s390 !s390x						      # needs porting
 %libacpi: amd64 i386 ia64 lpia					      # acpi is i386/ia64 specific
 %libdbd-informix-perl: i386                                           # ANAIS
-%libextractor-java: amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips mipsel powerpc s390 sparc	# [ANAIS]
 %libgcr410: i386 amd64						      # [ANAIS]
 %libopenspc: i386 kfreebsd-i386					      # i386 assembler
 %libsendmail-milter-perl: !ia64					      # ANAIS
@@ -153,13 +152,8 @@ lilo-installer: i386 amd64 lpia					      # only useful if you have lilo
 lkl: i386 kfreebsd-i386						      # i386 kb hardware specific
 lphdisk: i386							      # i386 laptop specific
 lsadb: powerpc							      # macintosh-only bus
-%lsb-appchk3: i386 amd64 ia64 powerpc s390			      # No upstream support
-%lsb-build-base3: i386 amd64 ia64 powerpc s390			      # [ANAIS]
-%lsb-build-cc3: i386 amd64 ia64 powerpc s390			      # [ANAIS]
-%lsb-pkgchk3: i386 amd64 ia64 powerpc s390			      # No upstream support
 loadlin: i386 amd64						      # i386 boot loader
 longrun: i386							      # i386 Crusoe specific
-ltrace: i386 m68k arm armel powerpc s390 sparc ia64 amd64 lpia        # [p] needs ported
 %lush: !ia64							      # ANAIS, #267494
 %mac-fdisk: m68k powerpc 					      # Apple Mac fdisk
 %makedumpfile: amd64 i386 ia64 powerpc				      # not yet ported to other platforms
@@ -178,7 +172,6 @@ mkrboot: i386                                                         # i386 boo
 %mkvmlinuz: powerpc						      # Powerpc kernel from open firmware.
 mocka: i386							      # i386 only compiler
 mondo: i386 amd64						      # needs mindi
-%mono: amd64 i386 powerpc arm armel ia64 s390 sparc kfreebsd-i386 kfreebsd-amd64 lpia # needs per-architecture porting
 morse: i386							      # i386 specific
 %mozart: !alpha !ia64 !amd64 !kfreebsd-amd64                          # 'who would ever need > 32-bits??'
 %mozart-stdlib: !alpha !ia64 !amd64 !kfreebsd-amd64                   # depends mozart (currently arch:all)
@@ -202,10 +195,8 @@ nvram-wakeup: i386 amd64					      # i386 BIOS specific
 %nvtv: i386 amd64						      # [?] ANAIS, <sys/io.h>
 %oaklisp: !amd64 !ia64 !alpha !kfreebsd-amd64			# No 64 bit support. (#510218)
 %ocamlgsl: !armel !hppa !sparc					      # [ANAIS] upstream and alignment issues (ARCH_ALIGN_DOUBLE)
-%openafs: alpha amd64 arm armel i386 ia64 lpia powerpc ppc64 s390 s390x sparc # needs explicit porting
 %open-vm-tools: i386 amd64					      # [ANAIS]
 %openhackware: powerpc						      # per Guillem Jover
-%oprofile: amd64 i386 ia64 alpha armel hppa powerpc sparc mips mipsel s390 # [ANAIS]
 %paxtest: i386							      # [ANAIS]
 %pbbuttonsd: powerpc						      # powerpc specific
 %partitioner: m68k mips						      # [ANAIS]
@@ -220,9 +211,7 @@ pbuilder-uml: i386 amd64					      # depends on user-mode-linux
 pciutils: !m68k                                                       # m68k doesn't do PCI; others?
 pearpc: i386 amd64 kfreebsd-amd64 kfreebsd-i386 hurd-i386	      # [ANAIS]
 penguin: m68k                                                         # m68k boot loader
-pforth: arm armel i386 m68k powerpc s390 sparc hurd-i386 hppa kfreebsd-i386 # requires explicit porting
 %pidgin-skype: i386 amd64						# [ANAIS] Requires non-free client
-%plee-the-bear: !alpha !arm !armel !powerpc !s390                     # [ANAIS]
 %pmud: powerpc							      # powerpc specific
 pnputils: i386 amd64						      # x86 specific, needs a PnP-BIOS
 %pommed: i386 amd64 powerpc					      # specific to Apple laptops
@@ -272,10 +261,8 @@ subterfugue: i386						      # i386 specific process tracing etc.
 %superiotool: !hppa !ia64 !m68k !mips !mipsel !powerpc !sh4 !sparc    # sys/io.h
 spu-tools: powerpc ppc64					      # PowerPC specific
 svgatextmode: i386 amd64                                              # Hardcoded i386 assembler
-%sysconfig: s390						      # ANAIS s390 specific
 syslinux: i386 amd64 lpia                                             # i386 boot loader thingy
 %sysprof: i386 amd64                            		      # x86-specific kernel module, ANAIS
-%systemtap: i386 amd64 ia64 s390 powerpc arm armel armeb              # needs kernel support
 %tcc: i386 kfreebsd-i386 hurd-i386 amd64 kfreebsd-amd64 armel	      # C compiler.
 tendra: i386							      # i386 specific (compiler)
 toshset: i386 amd64						      # i386 specific
@@ -539,7 +526,6 @@ vmware-package: i386 amd64					     # ANAIS
 %vmware-view-open-client: amd64 i386                                 # ANAIS
 
 # non-free
-distributed-net: i386 amd64 ia64 sparc powerpc arm armel mipsel s390 hppa # no source, binary tarballs are added manually
 %fglrx-driver: i386 amd64                                            # x86-specific
 rar: i386 amd64							     # shareware for i386 only
 
