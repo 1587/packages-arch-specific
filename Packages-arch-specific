@@ -99,8 +99,8 @@ ikarus: i386							      # i386 assembly
 %invaders: i386 hurd-i386 kfreebsd-i386 amd64 kfreebsd-amd64	      # x86 assembly
 ipmitool: i386 amd64 ia64 powerpc				      # i386 specific
 %isight-firmware-tools: i386 amd64				      # [ANAIS]
-%joystick: !hurd-i386 !kfreebsd-amd64 !kfreebsd-i386 !s390            # Linux specific, analog joysticks
-%kbd-chooser: !s390						      # s390 installs don't use a keyboard
+%joystick: !hurd-i386 !kfreebsd-amd64 !kfreebsd-i386 !s390 !s390x     # Linux specific, analog joysticks
+%kbd-chooser: !s390 !s390x					      # s390 installs don't use a keyboard
 kexec-tools: armel i386 powerpc amd64 ppc64 ia64 s390 lpia            # [ANAIS] based on syscall availability
 kgb: !arm                                                             # alignment issues, no upstream support
 kon2: i386                                                            # Hardcoded i386 assembler
@@ -108,8 +108,8 @@ kon2: i386                                                            # Hardcode
 %ia32-libs-gtk: amd64 ia64					      # ia32 compat libs for amd64,ia64
 %ia32-libs-core: ia64						      # ia32 compat libs, ia64-only bundle
 %lcd4linux: amd64 armel i386					      # <sys/io.h>
-%lcdproc: !s390							      # this hardware cannot be attached
-%ldc: !s390							      # needs porting
+%lcdproc: !s390 !s390x						      # this hardware cannot be attached
+%ldc: !s390 !s390x						      # needs porting
 %libacpi: amd64 i386 ia64 lpia					      # acpi is i386/ia64 specific
 %libdbd-informix-perl: i386                                           # ANAIS
 %libextractor-java: amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips mipsel powerpc s390 sparc	# [ANAIS]
@@ -134,6 +134,7 @@ lilo-installer: i386 amd64 lpia					      # only useful if you have lilo
 %linux-kernel-di-powerpc-2.6: powerpc
 %linux-kernel-di-sparc-2.6: sparc
 %linux-kernel-di-s390-2.6: s390
+%linux-kernel-di-s390x-2.6: s390x
 %kfreebsd-kernel-di-amd64: kfreebsd-amd64
 %kfreebsd-kernel-di-i386: kfreebsd-i386
 %linux-modules-di-alpha-2.6: alpha
@@ -146,6 +147,7 @@ lilo-installer: i386 amd64 lpia					      # only useful if you have lilo
 %linux-modules-di-mipsel-2.6: mipsel
 %linux-modules-di-powerpc-2.6: powerpc
 %linux-modules-di-s390-2.6: s390
+%linux-modules-di-s390x-2.6: s390x
 %linux-modules-di-sparc-2.6: sparc
 %linux-wlan-ng: amd64 i386 powerpc arm armel alpha hppa lpia	      # ANAIS [?]
 lkl: i386 kfreebsd-i386						      # i386 kb hardware specific
@@ -306,38 +308,38 @@ wmbatppc: powerpc						      # powerpc battery monitor
 %xf86-video-omapfb: armel armhf					      # chipset specific
 %xmbmon: i386 hurd-i386 amd64 kfreebsd-i386 kfreebsd-amd64	      # [ANAIS] sys/io.h
 xpmumon: powerpc						      # powerpc specific laptop power management
-%xserver-xorg-input-acecad: !s390
-%xserver-xorg-input-aiptek: !s390
-%xserver-xorg-input-elographics: !s390
-%xserver-xorg-input-joystick: !s390
-%xserver-xorg-input-keyboard: !s390
-%xserver-xorg-input-mouse: !s390
-%xserver-xorg-input-mutouch: !s390
-%xserver-xorg-input-penmount: !s390
-%xserver-xorg-input-synaptics: !s390
-%xserver-xorg-video-apm: !s390
-%xserver-xorg-video-ark: !s390
-%xserver-xorg-video-ati: !s390
-%xserver-xorg-video-chips: !s390
-%xserver-xorg-video-cirrus: !s390
-%xserver-xorg-video-fbdev: !s390
-%xserver-xorg-video-glide: !s390
-%xserver-xorg-video-glint: !s390
-%xserver-xorg-video-i128: !s390
-%xserver-xorg-video-i740: !s390
-%xserver-xorg-video-ivtvdev: !s390
-%xserver-xorg-video-mach64: !s390
-%xserver-xorg-video-mga: !s390
-%xserver-xorg-video-neomagic: !s390
+%xserver-xorg-input-acecad: !s390 !s390x
+%xserver-xorg-input-aiptek: !s390 !s390x
+%xserver-xorg-input-elographics: !s390 !s390x
+%xserver-xorg-input-joystick: !s390 !s390x
+%xserver-xorg-input-keyboard: !s390 !s390x
+%xserver-xorg-input-mouse: !s390 !s390x
+%xserver-xorg-input-mutouch: !s390 !s390x
+%xserver-xorg-input-penmount: !s390 !s390x
+%xserver-xorg-input-synaptics: !s390 !s390x
+%xserver-xorg-video-apm: !s390 !s390x
+%xserver-xorg-video-ark: !s390 !s390x
+%xserver-xorg-video-ati: !s390 !s390x
+%xserver-xorg-video-chips: !s390 !s390x
+%xserver-xorg-video-cirrus: !s390 !s390x
+%xserver-xorg-video-fbdev: !s390 !s390x
+%xserver-xorg-video-glide: !s390 !s390x
+%xserver-xorg-video-glint: !s390 !s390x
+%xserver-xorg-video-i128: !s390 !s390x
+%xserver-xorg-video-i740: !s390 !s390x
+%xserver-xorg-video-ivtvdev: !s390 !s390x
+%xserver-xorg-video-mach64: !s390 !s390x
+%xserver-xorg-video-mga: !s390 !s390x
+%xserver-xorg-video-neomagic: !s390 !s390x
 %xserver-xorg-video-openchrome: i386 amd64 kfreebsd-i386 kfreebsd-amd64 lpia # chipset specific
-%xserver-xorg-video-r128: !s390
-%xserver-xorg-video-rendition: !s390
-%xserver-xorg-video-s3: !s390
-%xserver-xorg-video-s3virge: !s390
-%xserver-xorg-video-savage: !s390
-%xserver-xorg-video-siliconmotion: !s390
-%xserver-xorg-video-sis: !s390
-%xserver-xorg-video-sisusb: !s390
+%xserver-xorg-video-r128: !s390 !s390x
+%xserver-xorg-video-rendition: !s390 !s390x
+%xserver-xorg-video-s3: !s390 !s390x
+%xserver-xorg-video-s3virge: !s390 !s390x
+%xserver-xorg-video-savage: !s390 !s390x
+%xserver-xorg-video-siliconmotion: !s390 !s390x
+%xserver-xorg-video-sis: !s390 !s390x
+%xserver-xorg-video-sisusb: !s390 !s390x
 %xserver-xorg-video-geode: i386 lpia				      # i386 specific
 %xserver-xorg-video-newport: mips				      # mips specific
 %xserver-xorg-video-suncg14: sparc				      # sparc specific
@@ -346,13 +348,13 @@ xpmumon: powerpc						      # powerpc specific laptop power management
 %xserver-xorg-video-sunffb: sparc				      # sparc specific
 %xserver-xorg-video-sunleo: sparc				      # sparc specific
 %xserver-xorg-video-suntcx: sparc				      # sparc specific
-%xserver-xorg-video-tdfx: !s390
-%xserver-xorg-video-tga: !s390
-%xserver-xorg-video-trident: !s390
-%xserver-xorg-video-tseng: !s390
-%xserver-xorg-video-vesa: !s390
-%xserver-xorg-video-vmware: !s390
-%xserver-xorg-video-voodoo: !s390
+%xserver-xorg-video-tdfx: !s390 !s390x
+%xserver-xorg-video-tga: !s390 !s390x
+%xserver-xorg-video-trident: !s390 !s390x
+%xserver-xorg-video-tseng: !s390 !s390x
+%xserver-xorg-video-vesa: !s390 !s390x
+%xserver-xorg-video-vmware: !s390 !s390x
+%xserver-xorg-video-voodoo: !s390 !s390x
 yaboot: powerpc							      # PowerPC Bootloader
 yaboot-installer: powerpc					      # PowerPC Bootloader installer
 %yacpi: i386 amd64 ia64						      # acpi is i386/amd64/ia64 specific
