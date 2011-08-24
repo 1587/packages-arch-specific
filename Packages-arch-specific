@@ -64,7 +64,7 @@ fakeroot-ng: amd64 i386 powerpc					      # ANAIS
 fdflush: alpha i386                                                   # i386/alpha specific
 %fenix: !alpha !amd64 !ia64 !kfreebsd-amd64                           # not 64bit clean
 %fenix-plugins: !alpha !amd64 !ia64 !kfreebsd-amd64                   # not 64bit clean
-%flash-kernel: arm armel
+%flash-kernel: arm armel armhf
 %flashrom: amd64 i386 kfreebsd-amd64 kfreebsd-i386 alpha hurd-i386    # ANAIS
 %fnfx: i386							      # toshiba laptop specific
 %gatos: i386							      # no upstream !i386 support
