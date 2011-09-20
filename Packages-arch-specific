@@ -95,7 +95,6 @@ hotkey-setup: i386 amd64 lpia                        		      # specific to x86 l
 ikarus: i386							      # i386 assembly
 %ikeyd: powerpc							      # iBook hotkey daemon
 %invaders: i386 hurd-i386 kfreebsd-i386 amd64 kfreebsd-amd64	      # x86 assembly
-ipmitool: i386 amd64 ia64 powerpc				      # i386 specific
 %isight-firmware-tools: i386 amd64				      # [ANAIS]
 %joystick: !hurd-i386 !kfreebsd-amd64 !kfreebsd-i386 !s390 !s390x     # Linux specific, analog joysticks
 %kbd-chooser: !s390 !s390x					      # s390 installs don't use a keyboard
