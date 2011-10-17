@@ -213,7 +213,7 @@ primaxscan: i386 kfreebsd-i386 amd64 kfreebsd-amd64		      # [?]
 %purelibc: i386 amd64 powerpc ppc64				      # [ANAIS] no upstream support
 %qemu-kvm: amd64 i386
 q-tools: ia64							      # ia64 perf utils
-qcam: alpha i386 arm armel					      # Attaches through the parallel port
+qcam: alpha i386 arm armel armhf				      # Attaches through the parallel port
 qprof: ia64 amd64 i386 mips mipsel powerpc			      # Build-Depends on libpfm3-3.2
 quik: powerpc							      # powerpc boot loader
 quik-installer: powerpc						      # powerpc boot loader
