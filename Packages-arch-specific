@@ -238,7 +238,7 @@ silo: sparc							      # sparc lilo
 %silo-installer: sparc						      # sparc lilo
 %slicer: !alpha !armel !mips !mipsel
 %sparc-utils: sparc                                                   # sparc specific
-%splay: i386 alpha arm armel m68k powerpc			      # [?] broken on sparc (see BTS]
+%splay: i386 alpha arm armel armhf m68k powerpc			      # [?] broken on sparc (see BTS]
 %spring: i386 amd64						      # x86 specific, needs java5 and hardware accellerated OpenGL
 %springlobby: i386 amd64					      # Depends on spring
 %stalin: i386 amd64 ia64 sparc kfreebsd-i386 kfreebsd-amd64	      # [ANAIS]
