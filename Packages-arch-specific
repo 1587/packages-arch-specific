@@ -95,7 +95,6 @@ ikarus: i386							      # i386 assembly
 %isight-firmware-tools: i386 amd64				      # [ANAIS]
 %joystick: !hurd-i386 !kfreebsd-amd64 !kfreebsd-i386 !s390 !s390x     # Linux specific, analog joysticks
 %kbd-chooser: !s390 !s390x					      # s390 installs don't use a keyboard
-kexec-tools: armel i386 powerpc amd64 ppc64 ia64 s390 lpia            # [ANAIS] based on syscall availability
 kgb: !arm                                                             # alignment issues, no upstream support
 kon2: i386                                                            # Hardcoded i386 assembler
 %ia32-libs: amd64 ia64						      # ia32 compat libs for amd64,ia64
