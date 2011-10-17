@@ -211,7 +211,6 @@ primaxscan: i386 kfreebsd-i386 amd64 kfreebsd-amd64		      # [?]
 %ps3-utils: powerpc						      # powerpc specific
 %psyco: i386 i386 hurd-i386 kfreebsd-i386			      # [ANAIS] no upstream support
 %purelibc: i386 amd64 powerpc ppc64				      # [ANAIS] no upstream support
-%qcontrol: arm armel						      # arm hardware specific
 %qemu-kvm: amd64 i386
 q-tools: ia64							      # ia64 perf utils
 qcam: alpha i386 arm armel					      # Attaches through the parallel port
