@@ -248,7 +248,7 @@ spu-tools: powerpc ppc64					      # PowerPC specific
 svgatextmode: i386 amd64                                              # Hardcoded i386 assembler
 syslinux: i386 amd64 lpia                                             # i386 boot loader thingy
 %sysprof: i386 amd64                            		      # x86-specific kernel module, ANAIS
-%tcc: i386 kfreebsd-i386 hurd-i386 amd64 kfreebsd-amd64 armel	      # C compiler.
+%tcc: i386 kfreebsd-i386 hurd-i386 amd64 kfreebsd-amd64 armel armhf   # C compiler.
 tendra: i386							      # i386 specific (compiler)
 toshset: i386 amd64						      # i386 specific
 toshutils: i386 amd64                                                 # x86 specific
