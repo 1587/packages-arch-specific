@@ -140,7 +140,7 @@ lilo-installer: i386 amd64 lpia					      # only useful if you have lilo
 %linux-modules-di-s390-2.6: s390
 %linux-modules-di-s390x-2.6: s390x
 %linux-modules-di-sparc-2.6: sparc
-%linux-wlan-ng: amd64 i386 powerpc arm armel alpha hppa lpia	      # ANAIS [?]
+%linux-wlan-ng: amd64 i386 powerpc arm armel armhf alpha hppa lpia	      # ANAIS [?]
 lkl: i386 kfreebsd-i386						      # i386 kb hardware specific
 lphdisk: i386							      # i386 laptop specific
 lsadb: powerpc							      # macintosh-only bus
