@@ -285,7 +285,6 @@ yaboot: powerpc							      # PowerPC Bootloader
 yaboot-installer: powerpc					      # PowerPC Bootloader installer
 %yacpi: i386 amd64 ia64						      # acpi is i386/amd64/ia64 specific
 %vpb-driver: !s390 !s390x					      # needs PCI
-yforth: i386 m68k sparc arm armel powerpc kfreebsd-i386 kfreebsd-amd64 # compiler
 z88dk: !alpha                                                         # 32bit only (using -m32 on amd64 and ia64)
 %zipl-installer: s390						      # installer stuff
 zorroutils: m68k powerpc					      # zorro (Amiga) specific
