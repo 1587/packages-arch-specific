@@ -307,7 +307,6 @@ zsnes: i386							      # Mostly written in i386 assembler
 %xserver-xorg-video-chips: !s390 !s390x
 %xserver-xorg-video-cirrus: !s390 !s390x
 %xserver-xorg-video-fbdev: !s390 !s390x
-%xserver-xorg-video-geode: i386 lpia				      # i386 specific
 %xserver-xorg-video-glide: !s390 !s390x
 %xserver-xorg-video-glint: !s390 !s390x
 %xserver-xorg-video-i128: !s390 !s390x
