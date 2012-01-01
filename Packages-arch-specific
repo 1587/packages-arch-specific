@@ -284,7 +284,6 @@ yforth: i386 m68k sparc arm armel powerpc kfreebsd-i386 kfreebsd-amd64 # compile
 z88dk: !alpha                                                         # 32bit only (using -m32 on amd64 and ia64)
 %zipl-installer: s390						      # installer stuff
 zorroutils: m68k powerpc					      # zorro (Amiga) specific
-zsnes: i386							      # Mostly written in i386 assembler
 
 # xorg stuff
 %xf86-input-multitouch: !s390 !s390x
