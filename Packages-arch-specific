@@ -276,6 +276,7 @@ nwutil: arm							      # arm only
 %octave2.0: !ia64 !hppa						      # uses octave2.1 instead
 %open-vm-tools: i386 amd64					      # [ANAIS]
 %openhackware: powerpc						      # per Guillem Jover
+%openjdk-6: !arm !hppa !alpha !ia64
 %oprofile: amd64 i386 ia64 alpha armel hppa powerpc sparc	      # [ANAIS]
 orp: i386							      # Intel's ix86 specific JVM
 %partimage: !ia64 !alpha !amd64					      # 64-bit is br0ken
