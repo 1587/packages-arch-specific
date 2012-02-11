@@ -478,6 +478,7 @@ zsnes: i386							      # Mostly written in i386 assembler
 %xen-3: amd64 i386                            		     	      # [ANAIS]
 %xen-unstable: amd64 i386                       		      # [ANAIS]
 %xenwatch: i386							      # [ANAIS]
+%xen-qemu-dm-4.0: amd64 i386
 
 # xorg stuff
 %xserver-xorg-input-vmmouse: i386 amd64          # VMWare-specific
