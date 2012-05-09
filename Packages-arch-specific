@@ -427,9 +427,6 @@ ghdl: !m68k
 coriander: !m68k
 dvgrab: !m68k
 
-# fp-compiler stuff
-%fpc: arm armel i386 sparc powerpc amd64			      # self-hosting pascal compiler
-
 # m68k specific
 %quantlib: !m68k						# ROM
 quantlib-python: !m68k
