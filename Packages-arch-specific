@@ -43,7 +43,6 @@ cmucl: i386							      # Yet to be ported to other arches
 %cobalt-panel-utils: i386 mipsel				      # hardware specific utils
 %colo: mipsel							      # mipsel boot loader
 %colo-installer: mipsel						      # mipsel boot loader
-%cpuid: i386 amd64 kfreebsd-i386 kfreebsd-amd64			      # x86 cpuid display program
 cpushare: amd64 i386 ppc64 powerpc				      # [ANAIS]
 crash: amd64 i386 ia64 alpha powerpc				      # not yet ported to other platforms
 %digitools: i386						      # [ANAIS]
