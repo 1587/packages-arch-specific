@@ -339,6 +339,9 @@ zorroutils: m68k powerpc					      # zorro (Amiga) specific
 %xserver-xorg-video-vmware: !s390 !s390x
 %xserver-xorg-video-voodoo: !s390 !s390x
 
+# graphical
+%rootskel-gtk: !s390 !s390x
+
 # xviewg and friends - no 64 proper bit support upstream, but alpha seems to
 # work for some reason?
 xvmount: !ia64 !amd64 !kfreebsd-amd64
