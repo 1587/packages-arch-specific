@@ -387,36 +387,6 @@ zgv: amd64 i386
 cil: i386
 %cmucl: i386
 
-## Depend: on libgnat-4.4
-%adabrowse:           !alpha !mips
-%adacgi:              !alpha
-%adacontrol:          !alpha !mips
-%adasockets:          !alpha
-%ahven:               !alpha
-%apq:                 !alpha
-%apq-postgresql:      !alpha
-%asis:                !alpha
-%gnade:               !alpha
-%gnat-gps:            !alpha !mips
-%gprbuild:            !alpha
-%libaunit:            !alpha
-%libalog:             !alpha
-%libaws:              !alpha !mips
-%libflorist:          !alpha
-%libgmpada:           !alpha
-%libgtkada2:          !alpha
-%liblog4ada:          !alpha
-%libtemplates-parser: !alpha !mips
-%libtexttools:        !alpha
-%libxmlada:           !alpha
-%libxmlezout:         !alpha
-%music123:            !alpha
-%opentoken:           !alpha
-%pcscada:             !alpha
-%polyorb:             !alpha !mips
-%topal:               !alpha
-
-
 # Depend on gnat-3.3, gnat-3.4
 ghdl: !m68k
 
