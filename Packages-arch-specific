@@ -106,7 +106,6 @@ kon2: i386                                                            # Hardcode
 %libsendmail-milter-perl: !ia64					      # ANAIS
 %libsmbios: i386 amd64 ia64 lpia				      # ANAIS
 %libspe2: powerpc pcp64						      # PowerPC specific
-%libunwind: ia64 i386 amd64 ppc64				      # [ANAIS]
 %libx86: !hppa !ia64 !m68k !mips !mipsel !powerpc !sh4 !sparc	      # <sys/io.h>
 %lilo: i386 amd64 lpia                                                # i386 boot loader
 lilo-installer: i386 amd64 lpia					      # only useful if you have lilo
