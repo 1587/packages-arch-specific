@@ -94,9 +94,6 @@ ikarus: i386							      # i386 assembly
 %kbd-chooser: !s390 !s390x					      # s390 installs don't use a keyboard
 kgb: !arm                                                             # alignment issues, no upstream support
 kon2: i386                                                            # Hardcoded i386 assembler
-%ia32-libs: amd64 ia64						      # ia32 compat libs for amd64,ia64
-%ia32-libs-gtk: amd64 ia64					      # ia32 compat libs for amd64,ia64
-%ia32-libs-core: ia64						      # ia32 compat libs, ia64-only bundle
 %lcdproc: !s390 !s390x						      # this hardware cannot be attached
 %ldc: !s390 !s390x						      # needs porting
 %libacpi: amd64 i386 ia64 lpia					      # acpi is i386/ia64 specific
