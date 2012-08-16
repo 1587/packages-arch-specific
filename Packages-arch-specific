@@ -475,9 +475,8 @@ zorroutils: m68k powerpc					      # zorro (Amiga) specific
 zsnes: i386							      # Mostly written in i386 assembler
 
 # xen stuff
-%xen-3: amd64 i386                            		     	      # [ANAIS]
-%xen-unstable: amd64 i386                       		      # [ANAIS]
-%xenwatch: i386							      # [ANAIS]
+%xen: amd64 i386                            		     	      # [ANAIS]
+%xenwatch: amd64 i386						      # [ANAIS]
 %xen-qemu-dm-4.0: amd64 i386
 
 # xorg stuff
