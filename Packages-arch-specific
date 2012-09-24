@@ -52,7 +52,6 @@ dosemu: i386 amd64                                                    # Hardcode
 e3: i386 kfreebsd-i386 amd64 kfreebsd-amd64			      # i386 assembly
 %eep24c: amd64 i386 kfreebsd-i386 kfreebsd-amd64 hurd-i386	      # [?] ANAIS, <sys/io.h>
 efibootmgr: i386 amd64 ia64 lpia				      # PC/ia64 boot mgr
-%efi-reader: ia64						      # ia64 specific
 elilo: amd64 i386 ia64 lpia					      # ia64 specific boot-loader
 %elilo-installer: i386 ia64 lpia				      # Installer for ia64 boot-loader
 fakeroot-ng: amd64 i386 powerpc					      # ANAIS
