@@ -261,7 +261,6 @@ welcome2l: alpha amd64 i386 ia64 kfreebsd-amd64 kfreebsd-i386	      # requires V
 %wine-unstable: i386 amd64 powerpc sparc kfreebsd-amd64 kfreebsd-i386 lpia hurd-i386    # Hardcoded i386 assembler
 wmacpi: i386 amd64						      # i386 specific
 wmbatppc: powerpc						      # powerpc battery monitor
-%wvstreams: !armel 					# no working getcontext()
 %x86info: i386 amd64 kfreebsd-i386 kfreebsd-amd64		      # i386 CPU info prog
 %xmbmon: i386 hurd-i386 amd64 kfreebsd-i386 kfreebsd-amd64	      # [ANAIS] sys/io.h
 xpmumon: powerpc						      # powerpc specific laptop power management
