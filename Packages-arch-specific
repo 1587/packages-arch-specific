@@ -178,7 +178,6 @@ nvram-wakeup: i386 amd64					      # i386 BIOS specific
 %nvtv: i386 amd64						      # [?] ANAIS, <sys/io.h>
 %oaklisp: !amd64 !ia64 !alpha !kfreebsd-amd64			# No 64 bit support. (#510218)
 %ocamlgsl: !armel !hppa !sparc					      # [ANAIS] upstream and alignment issues (ARCH_ALIGN_DOUBLE)
-%open-vm-tools: i386 amd64					      # [ANAIS]
 %openhackware: powerpc						      # per Guillem Jover
 %paxtest: i386							      # [ANAIS]
 %pbbuttonsd: powerpc						      # powerpc specific
