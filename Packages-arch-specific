@@ -237,6 +237,7 @@ syslinux: i386 amd64 lpia                                             # i386 boo
 %sysprof: i386 amd64                            		      # x86-specific kernel module, ANAIS
 %tcc: i386 kfreebsd-i386 hurd-i386 amd64 kfreebsd-amd64 armel armhf   # C compiler.
 tendra: i386							      # i386 specific (compiler)
+%tightvncserver: !s390x						      # not BE, 64-bit safe
 toshset: i386 amd64						      # i386 specific
 toshutils: i386 amd64                                                 # x86 specific
 %tpb: i386 amd64						      # x86 specific
