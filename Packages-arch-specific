@@ -82,7 +82,6 @@ hdapsd: i386 amd64 powerpc                      		      # IBM/Apple laptop speci
 hotkey-setup: i386 amd64 lpia                        		      # specific to x86 laptop models
 %i810switch: i386 kfreebsd-i386 amd64 hurd-i386 kfreebsd-amd64	      # i386 specific
 %i8kutils: i386 kfreebsd-i386 amd64 kfreebsd-amd64                    # Dell (i386/amd64) laptop utils
-ikarus: i386							      # i386 assembly
 %ikeyd: powerpc							      # iBook hotkey daemon
 %invaders: i386 hurd-i386 kfreebsd-i386 amd64 kfreebsd-amd64	      # x86 assembly
 %isight-firmware-tools: i386 amd64				      # [ANAIS]
