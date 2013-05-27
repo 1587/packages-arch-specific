@@ -420,7 +420,6 @@ quantlib-ruby: !m68k
 %linux-2.6: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %linux-latest-2.6: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %linuxtv-dvb-apps: !kfreebsd-i386 !kfreebsd-amd64 !hurd-i386
-%lldpd: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %module-init-tools: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %mdadm: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %me-tv: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
