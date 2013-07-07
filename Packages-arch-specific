@@ -69,7 +69,6 @@ fdflush: alpha i386                                                   # i386/alp
 %gmod: i386                                                           # i386 specific
 %gpmudmon-applet: powerpc					      # PMUD is powerpc APM
 %gnome-mount: !linux-any                                              # superseded on linux by gvfs/g-d-u (#591429)
-%gnu-efi: amd64 i386 ia64 lpia kfreebsd-amd64			      # EFI specific
 %google-perftools: amd64 i386 ia64 powerpc      		      # not yet ported to other archs
 %gpart: i386 hurd-i386 ia64 alpha arm armel mipsel amd64	      # little endian specific
 gprolog: i386 mips mipsel sparc alpha powerpc amd64		      # from source
