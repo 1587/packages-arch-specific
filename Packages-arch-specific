@@ -44,7 +44,6 @@ cmucl: i386							      # Yet to be ported to other arches
 %colo: mipsel							      # mipsel boot loader
 %colo-installer: mipsel						      # mipsel boot loader
 cpushare: amd64 i386 ppc64 powerpc				      # [ANAIS]
-crash: amd64 i386 ia64 alpha powerpc				      # not yet ported to other platforms
 %digitools: i386						      # [ANAIS]
 %drawterm: !hppa						      # No source support
 %drdsl: i386 amd64						      # [ANAIS]
