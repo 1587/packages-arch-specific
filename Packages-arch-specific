@@ -162,7 +162,6 @@ nvidia-xconfig: i386 amd64 ia64					      # i386 specific, but match what's in t
 %gpart: i386 hurd-i386 ia64 alpha arm armel mipsel amd64	      # little endian specific
 nspluginwrapper: amd64						      # amd64 specific
 %ntp: !hurd-i386						# does not have the needed system calls.
-%numactl: i386 amd64 ia64 mips mipsel powerpc			      # ANAIS
 nvram-wakeup: i386 amd64					      # i386 BIOS specific
 %nvtv: i386 amd64						      # [?] ANAIS, <sys/io.h>
 %oaklisp: !amd64 !ia64 !alpha !kfreebsd-amd64			# No 64 bit support. (#510218)
