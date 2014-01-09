@@ -21,7 +21,6 @@
 # PACKAGE: <architecture(s)>                         [SOURCE PACKAGE]  [REASON]
 
 aboot: alpha							      # alpha boot loader
-acpi: i386 ia64	amd64 lpia					      # acpi is i386/ia64 specific
 %acpi-support: i386 amd64 ia64 lpia				      # [ANAIS]
 acpidump: i386 ia64 amd64 lpia					      # acpi is i386/ia64 specific
 %acpitail: amd64 i386 ia64 lpia					      # acpi is i386/ia64 specific
