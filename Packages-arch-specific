@@ -330,18 +330,6 @@ imaze-xview: !ia64 !amd64 !kfreebsd-amd64
 xjove: !ia64 !amd64 !kfreebsd-amd64
 %xview: !ia64 !amd64 !kfreebsd-amd64		     # [ANAIS] see #125391
 
-# isdnutils has one arch: any package (isdnvboxclient), so we can't % it ....
-isdnutils: amd64 alpha arm armel i386 ia64 m68k powerpc sparc mips mipsel lpia
-isdnutils-xtools: amd64 alpha arm armel i386 ia64 m68k powerpc sparc mips mipsel lpia
-ipppd: amd64 alpha arm armel i386 ia64 m68k powerpc sparc mips mipsel lpia
-isdnlog: amd64 alpha arm armel i386 ia64 m68k powerpc sparc mips mipsel lpia
-isdnvbox: amd64 alpha arm armel i386 ia64 m68k powerpc sparc mips mipsel lpia
-isdnvboxserver: amd64 alpha arm armel i386 ia64 m68k powerpc sparc mips mipsel lpia
-isdnactivecards: amd64 alpha arm armel i386 ia64 m68k powerpc sparc mips mipsel lpia
-pppdcapiplugin: amd64 alpha arm armel i386 ia64 m68k powerpc sparc mips mipsel lpia
-isdneurofile: amd64 alpha arm armel i386 ia64 m68k powerpc sparc mips mipsel lpia
-%capi4hylafax: amd64 alpha arm armel i386 ia64 m68k powerpc sparc mips mipsel lpia
-
 # infiniband suite
 %dapl: i386 ia64 amd64 powerpc
 %ibsim: i386 ia64 amd64 powerpc
