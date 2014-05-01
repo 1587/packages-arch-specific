@@ -136,7 +136,3 @@ quantlib-python: !m68k
 
 # Installer/wrapper packages for i386 only software
 flashplugin-nonfree: i386 amd64 lpia
-
-# non-free
-%fglrx-driver: i386 amd64                                            # x86-specific
-
