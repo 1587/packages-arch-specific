@@ -295,7 +295,6 @@ zorroutils: m68k powerpc					      # zorro (Amiga) specific
 %xserver-xorg-video-neomagic: !s390 !s390x
 %xserver-xorg-video-newport: mips				      # mips specific
 %xserver-xorg-video-nouveau: !s390 !s390x
-%xserver-xorg-video-qxl: !s390 !s390x
 %xserver-xorg-video-r128: !s390 !s390x
 %xserver-xorg-video-rendition: !s390 !s390x
 %xserver-xorg-video-s3: !s390 !s390x
