@@ -92,11 +92,6 @@ z88dk: !alpha                                                         # 32bit on
 # graphical
 %rootskel-gtk: !s390 !s390x
 
-# infiniband suite
-%libibcommon: i386 ia64 amd64 powerpc
-%libibmad: i386 ia64 amd64 powerpc
-%libibumad: i386 ia64 amd64 powerpc
-
 # IEEE-1394 Firewire
 coriander: !m68k
 dvgrab: !m68k
