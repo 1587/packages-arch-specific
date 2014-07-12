@@ -23,8 +23,6 @@
 aboot: alpha							      # alpha boot loader
 %arcboot: mips							      # mips boot loader
 atari-bootstrap: m68k                                                 # m68k specific
-%colo: mipsel							      # mipsel boot loader
-%colo-installer: mipsel						      # mipsel boot loader
 %drawterm: !hppa						      # No source support
 fdflush: alpha i386                                                   # i386/alpha specific
 %gpart: i386 hurd-i386 ia64 alpha arm armel mipsel amd64	      # little endian specific
