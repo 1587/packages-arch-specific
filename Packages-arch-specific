@@ -27,7 +27,6 @@ atari-bootstrap: m68k                                                 # m68k spe
 fdflush: alpha i386                                                   # i386/alpha specific
 %gpart: i386 hurd-i386 ia64 alpha arm armel mipsel amd64	      # little endian specific
 %haskell-debian: amd64 i386 kfreebsd-amd64 kfreebsd-i386 powerpc      # Requires threaded Haskell runtime
-%ldc: !s390 !s390x						      # needs porting
 %libgcr410: i386 amd64						      # [ANAIS]
 %libsendmail-milter-perl: !ia64					      # ANAIS
 %linux-wlan-ng: amd64 i386 powerpc arm armel armhf alpha hppa lpia	      # ANAIS [?]
