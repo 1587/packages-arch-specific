@@ -84,11 +84,3 @@ yforth: i386 m68k sparc arm armel powerpc kfreebsd-i386 kfreebsd-amd64 # compile
 %mz: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %open-iscsi: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %vmpk: !hurd-i386 !kfreebsd-amd64 !kfreebsd-i386		# needs RtMidi/real ALSA, see #557899
-
-
-####################################################################################
-# Contrib and non-free
-# NB: non-free isn't auto-built so this is likely very out-of-date
-
-# Depend on j2sdk1.3
-%commons-beanutils: i386
