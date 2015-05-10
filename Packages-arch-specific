@@ -22,38 +22,21 @@
 
 aboot: alpha							      # alpha boot loader
 %arcboot: mips							      # mips boot loader
-atari-bootstrap: m68k                                                 # m68k specific
-%drawterm: !hppa						      # No source support
 fdflush: alpha i386                                                   # i386/alpha specific
 %gpart: i386 hurd-i386 ia64 alpha arm armel mipsel amd64	      # little endian specific
 %haskell-debian: amd64 i386 kfreebsd-amd64 kfreebsd-i386 powerpc      # Requires threaded Haskell runtime
 %libgcr410: i386 amd64						      # [ANAIS]
-%libsendmail-milter-perl: !ia64					      # ANAIS
 %linux-wlan-ng: amd64 i386 powerpc arm armel armhf alpha hppa lpia	      # ANAIS [?]
-%lush: !ia64							      # ANAIS, #267494
-mbr: i386 amd64 lpia                                                  # i386 boot loader
-%mga-vid: !m68k							      # [ANAIS]
-morse: i386							      # i386 specific
-%mpt-status: !hppa						      # [ANAIS]
 %msrtool: amd64 i386 kfreebsd-i386 kfreebsd-amd64 hurd-i386           # x86-specific
 %gpart: i386 hurd-i386 ia64 alpha arm armel mipsel amd64	      # little endian specific
 %ntp: !hurd-i386						# does not have the needed system calls.
 %ocamlgsl: !armel !hppa !sparc					      # [ANAIS] upstream and alignment issues (ARCH_ALIGN_DOUBLE)
-pciutils: !m68k                                                       # m68k doesn't do PCI; others?
 %prctl: hppa ia64 alpha powerpc					      # ANAIS based on syscall availability
-%prelink: !hppa							      # No upstream support
-primaxscan: i386 kfreebsd-i386 amd64 kfreebsd-amd64		      # [?]
 %purelibc: i386 amd64 powerpc ppc64				      # [ANAIS] no upstream support
-%racket: !ia64                                                        # [ANAIS] incompatible with ia64's stack layout
-%sauerbraten: !powerpc						      # does not work, #432666
 %splay: i386 alpha arm armel armhf m68k powerpc			      # [?] broken on sparc (see BTS]
 %tvtime: i386 amd64 lpia					      # i386 (wine) specific
 %uclibc: none							      # Currently no arch specific package on any debian arch
-vmelilo: m68k							      # m68k (VME) lilo
-%vmelilo-installer: m68k					      # m68k (VME) lilo
-%widelands: !m68k						      # requires porting work
 yforth: i386 m68k sparc arm armel powerpc kfreebsd-i386 kfreebsd-amd64 # compiler
-z88dk: !alpha                                                         # 32bit only (using -m32 on amd64 and ia64)
 
 # xorg stuff
 %xf86-input-multitouch: !s390 !s390x
@@ -87,16 +70,6 @@ z88dk: !alpha                                                         # 32bit on
 
 # graphical
 %rootskel-gtk: !s390 !s390x
-
-# IEEE-1394 Firewire
-coriander: !m68k
-dvgrab: !m68k
-
-# m68k specific
-%quantlib: !m68k						# ROM
-quantlib-python: !m68k
-%rquantlib: !m68k
-%clisp: !m68k							# "too buggy, no one willing to fix"
 
 # linux specific
 %autofs: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
