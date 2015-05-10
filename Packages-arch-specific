@@ -92,8 +92,3 @@ yforth: i386 m68k sparc arm armel powerpc kfreebsd-i386 kfreebsd-amd64 # compile
 
 # Depend on j2sdk1.3
 %commons-beanutils: i386
-
-# Build-Depends on lw-installer
-
-# Installer/wrapper packages for i386 only software
-flashplugin-nonfree: i386 amd64 lpia
