@@ -61,7 +61,6 @@ yforth: i386 m68k sparc arm armel powerpc kfreebsd-i386 kfreebsd-amd64 # compile
 %xserver-xorg-video-savage: !s390 !s390x
 %xserver-xorg-video-siliconmotion: !s390 !s390x
 %xserver-xorg-video-sisusb: !s390 !s390x
-%xserver-xorg-video-sunffb: sparc				      # sparc specific
 %xserver-xorg-video-tdfx: !s390 !s390x
 %xserver-xorg-video-trident: !s390 !s390x
 %xserver-xorg-video-vesa: !s390 !s390x
