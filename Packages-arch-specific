@@ -49,7 +49,6 @@ yforth: i386 m68k sparc arm armel powerpc kfreebsd-i386 kfreebsd-amd64 # compile
 %xserver-xorg-input-mouse: !s390 !s390x
 %xserver-xorg-input-mutouch: !s390 !s390x
 %xserver-xorg-input-synaptics: !s390 !s390x
-%xserver-xorg-input-vmmouse: i386 amd64          # VMWare-specific
 %xserver-xorg-video-ati: !s390 !s390x
 %xserver-xorg-video-cirrus: !s390 !s390x
 %xserver-xorg-video-fbdev: !s390 !s390x
