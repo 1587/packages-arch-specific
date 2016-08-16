@@ -33,7 +33,6 @@ fdflush: alpha i386                                                   # i386/alp
 %ocamlgsl: !armel !hppa !sparc					      # [ANAIS] upstream and alignment issues (ARCH_ALIGN_DOUBLE)
 %prctl: hppa ia64 alpha powerpc					      # ANAIS based on syscall availability
 %purelibc: i386 amd64 powerpc ppc64				      # [ANAIS] no upstream support
-%tvtime: i386 amd64 lpia					      # i386 (wine) specific
 %uclibc: none							      # Currently no arch specific package on any debian arch
 yforth: i386 m68k sparc arm armel powerpc kfreebsd-i386 kfreebsd-amd64 # compiler
 
@@ -82,4 +81,5 @@ yforth: i386 m68k sparc arm armel powerpc kfreebsd-i386 kfreebsd-amd64 # compile
 %me-tv: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %mz: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %open-iscsi: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
+%tvtime: !kfreebsd-amd64 !kfreebsd-i386 !hurd-i386
 %vmpk: !hurd-i386 !kfreebsd-amd64 !kfreebsd-i386		# needs RtMidi/real ALSA, see #557899
