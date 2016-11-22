@@ -24,7 +24,7 @@ aboot: alpha							      # alpha boot loader
 %arcboot: mips							      # mips boot loader
 fdflush: alpha i386                                                   # i386/alpha specific
 %gpart: i386 hurd-i386 ia64 alpha arm armel mipsel amd64	      # little endian specific
-%haskell-debian: amd64 i386 kfreebsd-amd64 kfreebsd-i386 powerpc      # Requires threaded Haskell runtime
+%haskell-debian: all amd64 i386 kfreebsd-amd64 kfreebsd-i386 powerpc  # Requires threaded Haskell runtime
 %libgcr410: i386 amd64						      # [ANAIS]
 %linux-wlan-ng: amd64 i386 powerpc arm armel armhf alpha hppa lpia	      # ANAIS [?]
 %msrtool: amd64 i386 kfreebsd-i386 kfreebsd-amd64 hurd-i386           # x86-specific
